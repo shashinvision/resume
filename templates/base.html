@@ -11,15 +11,25 @@
 
 <body>
   <div class="container mt-5">
-    <div class="row d-flex align-items-center">
+    <div class="row d-flex align-items-center mb-5">
+      <div class="col-6 d-flex justify-content-end">
+        <img id="perfil_img" src="{{perfil_img}}" alt="perfil_img" class="img-thumbnail img-fluid rounded-circle">
+      </div>
       <div class="col-6">
         <h2>Felipe M.</h2>
         <i>{{languaje.short_title | safe }}</i>
       </div>
-      <div class="col-6 d-flex justify-content-end">
 
-        <img id="perfil_img" src="{{perfil_img}}" alt="perfil_img" class="img-thumbnail img-fluid rounded-circle">
-
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-center">{{languaje.about_me_title }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <p class="text-center">{{languaje.about_me }}</>
       </div>
     </div>
   </div>
