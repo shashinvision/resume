@@ -1,5 +1,5 @@
 from flask import Flask, render_template, url_for, request
-from languaje import english, spanish, general
+from languaje import english, spanish, generals
 
 app = Flask(__name__)
 
@@ -15,4 +15,4 @@ def index(languaje = 'english'):
         
         set_languaje =  english if languaje == 'english' else spanish
 
-        return render_template("base.html", css_bootstrap_url = css_bootstrap_url, style_url=style_url, js_bootstrap_url = js_bootstrap_url,perfil_img=perfil_img, languaje=set_languaje, general=general )
+        return render_template("base.html", css_bootstrap_url = css_bootstrap_url, style_url=style_url, js_bootstrap_url = js_bootstrap_url,perfil_img=perfil_img, languaje=set_languaje, generals=generals )

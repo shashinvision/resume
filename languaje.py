@@ -19,7 +19,10 @@ english = {
         "intitution":"Technical training center, ICEL."
     },
     ],
-    "city": "<b>City</b>: Santiago of Chile."
+    "city": "<b>City</b>: Santiago of Chile.",
+    "skills_title":"Skills / Experience",
+    "experience_title":"Professional experience",
+    "education_title":"Education",
     
 }
 
@@ -42,12 +45,15 @@ spanish = {
         "intitution":"Centro de formación técnica, ICEL."
     },
     ],
-    "city": "<b>Ciudad</b>: Santiago de Chile."
+    "city": "<b>Ciudad</b>: Santiago de Chile.",
+    "skills_title":"Habilidades / Experiencia",
+    "experience_title":"Experiencia Profesional",
+    "education_title":"Educación",
 
 }
 
-general = {
-    "experience_skills":"Linux / Vim / Python / Flask / Jupyter / Pandas / JavaScript / Node / Express / VueJS / Vuex / Nuxt / Modyo / Microfrontend / PHP / CodeIgniter / Laravel / SQL (MySQL/MariaDB, SQL Server, PostgreSQL, SQLite) / MongoDB / BASH / Docker / Git / API REST / HTML5 / CSS Frameworks / AGILE / Tech Lead / Documentation",
-    "skills":["HTML5 / CSS3 (Frameworks / Libraries)", "Python / Flask / Pandas / Jupyter", "PHP / CodeIgniter / Laravel", "JavaScript / React / Vue / Vuex / Nuxt / Ionic", "Micro Frontend | Modyo", "Linux / MacOsx / Unix / Tmux / Windows", "GIT", "CMS (Wordpress, Joomla, Drupal, Prestashop)", "Docker / Docker Compose", "SQL (MYSQL/MariaDB, SQL Server, PostgreSQL)", "MongoDB", "Cloud: AWS / Azure", "Software architecture", "SOLID", "Figma", "Flow diagrams / UML / BPMN", "Excel", "BI - Data analyst", "Bash", "Web scraping", "Odoo ERP/CRM"],
+generals = {
+
+    "skills":["Linux / MacOsx / Unix / Tmux / Windows", "Python / Flask / Pandas / Jupyter", "PHP / CodeIgniter / Laravel", "JavaScript / React / Vue / Vuex / Nuxt / Ionic", "Micro Frontend | Modyo", "API REST", "Bash", "HTML5 / CSS3", "GIT", "CMS (Wordpress, Joomla, Drupal, Prestashop)", "Docker / Docker Compose", "SQL (MYSQL/MariaDB, SQL Server, PostgreSQL, SQLite)", "MongoDB", "Cloud: AWS / Azure", "Software architecture", "SOLID", "Figma", "Flow diagrams / UML / BPMN", "Excel", "BI - Data analyst", "Bash", "Web scraping", "Odoo ERP/CRM", "Agile (KANBAN, SCRUM)"],
 
 }
