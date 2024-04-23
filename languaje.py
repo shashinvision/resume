@@ -17,7 +17,8 @@ english = {
         "date": "2011 - 2013",
         "intitution":"Technical training center, ICEL."
     },
-    ]
+    ],
+    "city": "<b>City</b>: Santiago of Chile."
     
 }
 
@@ -38,7 +39,8 @@ spanish = {
         "date": "2011 - 2013",
         "intitution":"Centro de formación técnica, ICEL."
     },
-    ]
+    ],
+    "city": "<b>Ciudad</b>: Santiago de Chile."
 
 }
 
