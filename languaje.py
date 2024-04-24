@@ -28,7 +28,7 @@ english = {
             "title": "SOFTWARE ENGINEER",
             "date": "2022, 2023 (Current)",
             "intitution":"Automovil Club Chile",
-            "list": ["Tech leader of Software Team", "Full Stack Developer", "Manager Data layer", "Management on software projects", "Use of different tools and methodologies to control on IT projects", "Participant in the entire life cycle of software projects","Use GIT for control version", "Management of servers On-presime y Cloud (AWS/AZURE)."]
+            "list": ["Tech leader of Software Team", "Full Stack Developer", "Manager Data layer", "Management on software projects", "Use of different tools and methodologies to control on IT projects", "Participant in the entire life cycle of software projects","Use GIT for control version", "Management of servers On-presime y Cloud (AWS/AZURE).", "Micro Services"]
         },
         {
             "title": "SOFTWARE ENGINEER",
@@ -68,7 +68,7 @@ spanish = {
             "title": "INGENIERO DE SOFTWARE",
             "date": "2022, 2023 (Actual)",
             "intitution":"Automovil Club de Chile",
-            "list": ["Líder Técnico del equipo de desarrollo", "Desarrollador Full Stack","Administrador de la capa de datos", "Gestión de proyectos de software", "Uso de distintas metodologias y herramientas para la gestión y control de proyectos", "Participe de todo el ciclo de vida de los proyectos de software","Uso de git para versionamiento de software", "Administrador de Servidores On-presime y Cloud(AWS/AZURE)."]
+            "list": ["Líder Técnico del equipo de desarrollo", "Desarrollador Full Stack","Administrador de la capa de datos", "Gestión de proyectos de software", "Uso de distintas metodologias y herramientas para la gestión y control de proyectos", "Participe de todo el ciclo de vida de los proyectos de software","Uso de git para versionamiento de software", "Administrador de Servidores On-presime y Cloud(AWS/AZURE).", "Micro Servicios"]
         },
                 {
             "title": "SOFTWARE ENGINEER",
