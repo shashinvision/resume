@@ -217,6 +217,10 @@ generals = {
             "url": "https://www.udemy.com/certificate/UC-LMTJ3L9P/"
         },
         {
+            "title": "Bootstrap 4: El Curso Completo, Práctico y Desde Cero",
+            "url": "https://www.udemy.com/certificate/UC-0WNWS4T7/"
+        },
+        {
             "title": "Aprende Programación en Java (de Básico a Avanzado)",
             "url": "https://www.udemy.com/certificate/UC-85e85b54-4b6e-47ca-9b2c-851f6bf387a3/"
         },
