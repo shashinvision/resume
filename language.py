@@ -1,6 +1,7 @@
 # This is my dictionary 
 
 english = {
+    "language":"english",
     "title": "Resume",
     "short_title": "<b>IT ENGINEER</b> / Full Stack Developer",
     "about_me_title": "About me",
@@ -87,6 +88,7 @@ english = {
 }
 
 spanish = {
+    "language":"spanish",
     "title": "Corriculum",
     "short_title": "<b>Ingeniero informático</b> / Desarrollador Full Stack",
     "about_me_title": "Acerca de mi",

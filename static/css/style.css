@@ -8,3 +8,15 @@ body{
 #perfil_img{
     width: 120px;
 }
+a{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+
+}
+a:hover {
+    color: rgb(205, 205, 205);
+}
+.active{
+    color: black;
+}

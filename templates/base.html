@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{ languaje.title }} | Felipe M.</title>
+  <title>{{ language.title }} | Felipe M.</title>
   <link rel="stylesheet" href="{{ css_bootstrap_url }}" />
   <link rel="stylesheet" href="{{ style_url }}" />
   <link rel="icon" type="image/x-icon" href="{{ icon }}">
@@ -12,6 +12,21 @@
 
 <body>
   <div class="container mt-4">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex justify-content-start align-content-center">
+          <div>
+            <a class="{% if language.language == 'english' %}active{% endif %}"
+              href="{{url_for('index', language='english')}}">English</a>
+          </div>
+          <div style="margin:0 5px;"></div>
+          <div>
+            <a class="{% if language.language == 'spanish' %}active{% endif %}"
+              href="{{url_for('index', language='spanish')}}">Spanish</a>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="row d-flex  justi mb-4">
       <div class="col-12 d-flex justify-content-center align-items-center">
         <div class="">
@@ -20,26 +35,27 @@
         </div>
         <div class="">
           <h2>Felipe M.</h2>
-          <i>{{languaje.short_title | safe }}</i>
+          <i>{{language.short_title | safe }}</i>
         </div>
       </div>
     </div>
+
     <hr />
     <div class="row">
       <div class="col-12">
-        <h2 class="text-center">{{languaje.about_me_title }}</h2>
+        <h2 class="text-center">{{language.about_me_title }}</h2>
       </div>
     </div>
     <div class="row">
       <div class="col-12">
-        <p class="text-center">{{languaje.about_me }}</p>
+        <p class="text-center">{{language.about_me }}</p>
       </div>
     </div>
     <div class="row">
       <div class="col-6">
         <div class="row">
           <div class="col-12">
-            <h2 class="text-center">{{languaje.skills_title}}</h2>
+            <h2 class="text-center">{{language.skills_title}}</h2>
             <ul>
               {% for general in generals.skills %}
               <li>
@@ -51,8 +67,8 @@
         </div>
         <div class="row">
           <div class="col-12">
-            <h2 class="text-center">{{languaje.education_title}}</h2>
-            {% for education in languaje.education %}
+            <h2 class="text-center">{{language.education_title}}</h2>
+            {% for education in language.education %}
             <div>
               <h5 class="fw-bold mb-0">{{education.title}}</h5>
               <small class="text-muted">{{education.date}}</small>
@@ -63,7 +79,7 @@
         </div>
         <div class="row">
           <div class="col-12">
-            <h2 class="text-center">{{languaje.courses_title}}</h2>
+            <h2 class="text-center">{{language.courses_title}}</h2>
             <ul>
               {% for course in generals.courses %}
               <li>
@@ -75,8 +91,8 @@
         </div>
       </div>
       <div class="col-6">
-        <h2 class="text-center">{{languaje.experience_title}}</h2>
-        {% for experience in languaje.experience %}
+        <h2 class="text-center">{{language.experience_title}}</h2>
+        {% for experience in language.experience %}
         <div>
           <h5 class="fw-bold mb-0">{{experience.title}}</h5>
           <small class="text-muted">{{experience.date}}</small>
@@ -94,8 +110,8 @@
     </div>
     <div class="row">
       <div class="col-12">
-        <h2>{{languaje.contact_title}}</h2>
-        <p>{{languaje.contact_description}}</p>
+        <h2>{{language.contact_title}}</h2>
+        <p>{{language.contact_description}}</p>
         <p>{{generals.email}}</p>
       </div>
     </div>
