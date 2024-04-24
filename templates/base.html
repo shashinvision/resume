@@ -16,12 +16,12 @@
       <div class="col-12">
         <div class="d-flex justify-content-start align-content-center">
           <div>
-            <a class="{% if language.language == 'english' %}active{% endif %}"
+            <a class="language {% if language.language == 'english' %}active{% endif %}"
               href="{{url_for('index', language='english')}}">English</a>
           </div>
           <div style="margin:0 5px;"></div>
           <div>
-            <a class="{% if language.language == 'spanish' %}active{% endif %}"
+            <a class="language {% if language.language == 'spanish' %}active{% endif %}"
               href="{{url_for('index', language='spanish')}}">Spanish</a>
           </div>
         </div>
