@@ -175,6 +175,7 @@ spanish = {
 generals = {
 
     "skills":["Linux / MacOsx / Unix / Tmux / Windows", "Python / Flask / Pandas / Jupyter", "PHP / CodeIgniter / Laravel", "JavaScript / React / Vue / Vuex / Nuxt / Ionic", "Micro Frontend | Modyo", "API REST", "Bash", "HTML5 / CSS3", "GIT", "CMS (Wordpress, Joomla, Drupal, Prestashop)", "Docker / Docker Compose", "SQL (MYSQL/MariaDB, SQL Server, PostgreSQL, SQLite)", "MongoDB", "Cloud: AWS / Azure", "Software architecture", "SOLID", "Figma", "Flow diagrams / UML / BPMN", "Excel", "BI - Data analyst", "Bash", "Web scraping", "Odoo ERP/CRM", "Agile (KANBAN, SCRUM)"],
+    "email":"felipei.mancilla@gmail.com",
     "courses":[
         {
             "title": "Todo PHP7 y MySQL, de básico a experto",
