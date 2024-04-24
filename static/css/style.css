@@ -10,12 +10,15 @@ body{
 }
 a{
     text-decoration: none;
-    color: grey;
+    color: black;
     font-weight: bold;
 
 }
 a:hover {
     color: rgb(205, 205, 205);
+}
+.language{
+        color: grey;
 }
 .active{
     color: black;
