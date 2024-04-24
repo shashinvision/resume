@@ -89,6 +89,11 @@ spanish = {
     "description_question": "¿Qué un desarrollador <b>Full Stack</b>?<br>Es un desarrollador capaz de entregar un producto desde cero.",
     "about_me": "Profesional con 15+ años de experiencia en el rubro de la informática, con desempeño en las siguientes áreas: soporte software/hardware, técnico en redes/telecomunicaciones y durante los últimos años he dirigido mi carrera al desarrollo de software web Full stack de forma autodidacta, la cual complemento con el uso de la carrera de ingeniería informática. Hago uso de la metodología ágil KANBAN para mejoras en la productividad y velocidad de entregas. Me mantengo en constante aprendizaje, me encanta enseñar si alguien siente que le puedo ayudar a aprender algo nuevo, y me encanta aprender de los que saben más.",
     "skills_description":"Habilidades adquiridas de forma autodidacta y posteriormente puesta en experiencia dentro de las áreas de desarrollo en las que me he desempeñado.",
+    "courses_title": "Courses",
+    "courses_description": "In this section you can see the courses passed and certified by me, please click in the courses title to see the online certificate.",
+    "contact_title": "Contact",
+    "contact_description": "You can contact me for email at:",
+    
     "education": [
     {
         "title": "INGENIERÍA EN INFORMÁTICA.",
@@ -105,6 +110,10 @@ spanish = {
     "skills_title":"Habilidades / Experiencia",
     "experience_title":"Experiencia Profesional",
     "education_title":"Educación",  
+    "courses_title": "Cursos",
+    "courses_description": "En esta sección puede ver los cursos aprobados y certificados por mí, haga clic en el título de los cursos para ver el certificado en línea.",
+    "contact_title": "Contacto",
+    "contact_description": "Puedes contactarme vía correo electronico a:",
     "experience": [
         {
             "title": "INGENIERO DE SOFTWARE",
