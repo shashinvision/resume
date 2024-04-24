@@ -23,6 +23,10 @@ english = {
     "skills_title":"Skills / Experience",
     "experience_title":"Professional experience",
     "education_title":"Education",
+    "courses_title": "Courses",
+    "courses_description": "In this section you can see the courses passed and certified by me, please click in the courses title to see the online certificate.",
+    "contact_title": "Contact",
+    "contact_description": "You can contact me for email at:",
     "experience": [
         {
             "title": "SOFTWARE ENGINEER",
@@ -89,11 +93,6 @@ spanish = {
     "description_question": "¿Qué un desarrollador <b>Full Stack</b>?<br>Es un desarrollador capaz de entregar un producto desde cero.",
     "about_me": "Profesional con 15+ años de experiencia en el rubro de la informática, con desempeño en las siguientes áreas: soporte software/hardware, técnico en redes/telecomunicaciones y durante los últimos años he dirigido mi carrera al desarrollo de software web Full stack de forma autodidacta, la cual complemento con el uso de la carrera de ingeniería informática. Hago uso de la metodología ágil KANBAN para mejoras en la productividad y velocidad de entregas. Me mantengo en constante aprendizaje, me encanta enseñar si alguien siente que le puedo ayudar a aprender algo nuevo, y me encanta aprender de los que saben más.",
     "skills_description":"Habilidades adquiridas de forma autodidacta y posteriormente puesta en experiencia dentro de las áreas de desarrollo en las que me he desempeñado.",
-    "courses_title": "Courses",
-    "courses_description": "In this section you can see the courses passed and certified by me, please click in the courses title to see the online certificate.",
-    "contact_title": "Contact",
-    "contact_description": "You can contact me for email at:",
-    
     "education": [
     {
         "title": "INGENIERÍA EN INFORMÁTICA.",
@@ -176,5 +175,147 @@ spanish = {
 generals = {
 
     "skills":["Linux / MacOsx / Unix / Tmux / Windows", "Python / Flask / Pandas / Jupyter", "PHP / CodeIgniter / Laravel", "JavaScript / React / Vue / Vuex / Nuxt / Ionic", "Micro Frontend | Modyo", "API REST", "Bash", "HTML5 / CSS3", "GIT", "CMS (Wordpress, Joomla, Drupal, Prestashop)", "Docker / Docker Compose", "SQL (MYSQL/MariaDB, SQL Server, PostgreSQL, SQLite)", "MongoDB", "Cloud: AWS / Azure", "Software architecture", "SOLID", "Figma", "Flow diagrams / UML / BPMN", "Excel", "BI - Data analyst", "Bash", "Web scraping", "Odoo ERP/CRM", "Agile (KANBAN, SCRUM)"],
+    "courses":[
+        {
+            "title": "Todo PHP7 y MySQL, de básico a experto",
+            "url": "https://www.udemy.com/certificate/UC-92V9FR5U/"
+        },
+        {
+            "title": "VIM Profesional",
+            "url": "https://www.udemy.com/certificate/UC-8a43b696-4012-489c-8b03-52db1d524b57"
+        },
+        {
+            "title": "PHP 7 y MYSQL: El Curso Completo, Práctico y Desde Cero !",
+            "url": "https://www.udemy.com/certificate/UC-VNLUFJD2/"
+        },
+        {
+            "title": "Master en PHP, SQL, POO, MVC, Laravel, Symfony, WordPress +",
+            "url": "https://www.udemy.com/certificate/UC-75IHBCL8/"
+        },
+        {
+            "title": "Master en JavaScript: Aprender JS, jQuery, Angular, NodeJS",
+            "url": "https://www.udemy.com/certificate/UC-POMG60SC/"
+        },
+        {
+            "title": "Master en CSS: Responsive, SASS, Flexbox, Grid y Bootstrap",
+            "url": "https://www.udemy.com/certificate/UC-33f3e581-1998-41d1-b554-afbc34836555/"
+        },
+        {
+            "title": "Introducción a Git y Github",
+            "url": "https://www.udemy.com/certificate/UC-JZJK9EL8/"
+        },
+        {
+            "title": "Desarrollo de aplicaciones con CodeIgniter",
+            "url": "https://www.udemy.com/certificate/UC-L4FOHPDN/"
+        },
+        {
+            "title": "Sistema Multiusuario con PHP y MySql",
+            "url": "https://www.udemy.com/certificate/UC-K1T42YSC/"
+        },
+        {
+            "title": "JavaScript: de cero hasta los detalles (ES5)",
+            "url": "https://www.udemy.com/certificate/UC-LMTJ3L9P/"
+        },
+        {
+            "title": "Aprende Programación en Java (de Básico a Avanzado)",
+            "url": "https://www.udemy.com/certificate/UC-85e85b54-4b6e-47ca-9b2c-851f6bf387a3/"
+        },
+        {
+            "title": "Scrum: cómo cambiar de paradigma e implantarlo con éxito",
+            "url": "https://www.udemy.com/certificate/UC-MBVMDSYM/"
+        },
+        {
+            "title": "Curso de VueJS 2 en Español - Crea webapps modernas",
+            "url": "https://www.udemy.com/certificate/UC-VES2BP5A/"
+        },
+        {
+            "title": "Curso completo de Python 3. Aprende desde cero.",
+            "url": "https://www.udemy.com/certificate/UC-LDA55BGJ/"
+        },
+        {
+            "title": "Creando Restful services PHP-MYSQL (Codeigniter 3).",
+            "url": "https://www.udemy.com/certificate/UC-QZ4FWFG3/"
+        },
+        {
+            "title": "Dominando Laravel - De principiante a experto",
+            "url": "https://www.udemy.com/certificate/UC-491125a8-bb89-4860-9391-6ea08c31398f/"
+        },
+        {
+            "title": "Inglés Básico 1 para Principiantes: Una sólida base, hablando.",
+            "url": "https://www.udemy.com/certificate/UC-3d005c84-7ce3-47e6-ae78-18540183f43e/"
+        },
+        {
+            "title": "Inglés Básico 2 para Principiantes: Una sólida base, hablando.",
+            "url": "https://www.udemy.com/certificate/UC-473ef84a-a2c4-4c0e-976d-b25f2765d605/"
+        },
+        {
+            "title": "Vue Native: Tu primer contacto creando aplicaciones nativas.",
+            "url": "https://www.udemy.com/certificate/UC-6eeba64e-9083-4384-ae56-362042c4dfbf/"
+        },
+        {
+            "title": "Certificado Modyo: Gestión Básica de Contenidos",
+            "url": "https://drive.google.com/open?id=1RJr5xV2ouzlfAIJQ--0gTJATWryk8O4t&usp=drive_fs"
+        },
+        {
+            "title": "Certificado Modyo: Desarrollo de Frontend Básico",
+            "url": "https://drive.google.com/file/d/1FX_qtXsrMWPQyNnl20-esF5xV-kPYqGo/view?usp=sharing"
+        },
+        {
+            "title": "Certificado Modyo: Gestión avanzada de Contenidos",
+            "url": "https://drive.google.com/file/d/1qN74l8uY0xbOI0IsrcdaPN3_Os4GtY-0/view?usp=sharing"
+        },
+        {
+            "title": "Introducción a Azure",
+            "url": "https://www.udemy.com/certificate/UC-3a0fb559-9bc9-4100-aa4b-dfa327d8c8d6/"
+        },
+        {
+            "title": "Azure Devops de cero a experto",
+            "url": "https://www.udemy.com/certificate/UC-cc2ac902-d118-403c-84f4-e8565e5b4971/"
+        },
+        {
+            "title": "Design Sprints: validar mi idea en 5 días",
+            "url": "https://www.udemy.com/certificate/UC-152e0fe4-f861-4798-b241-c61aca7448db/"
+        },
+        {
+            "title": "Diseño UX: experiencia de usuario UX/UI + Figma 2023",
+            "url": "https://www.udemy.com/certificate/UC-e7529165-a1b5-4616-8368-3c77075fcba3/"
+        },
+        {
+            "title": "Node: De cero a experto",
+            "url": "https://www.udemy.com/certificate/UC-8d66c6ab-bccb-4a25-a6d3-b747660dd1d6/"
+        },
+        {
+            "title": "Ágil como un gato, ¡Gestión de proyectos sin aburrirte!",
+            "url": "https://www.udemy.com/certificate/UC-980777cf-4ceb-4fa1-83b6-2a36fdc64978/"
+        },
+        {
+            "title": "English B1 Certificate!",
+            "url": "https://drive.google.com/file/d/1-TGjnK23w7NbCEn1R8KZfTi1WmHuE6b7/view?usp=sharing"
+        },
+        {
+            "title": "Curso de Odoo 13 | 14 | 15 Técnico para Implementadores",
+            "url": "https://www.udemy.com/certificate/UC-cb50a43a-11db-400c-96e6-2b6992a7911d/"
+        },
+        {
+            "title": "Curso de Odoo 13 | 14 | 15 Funcional para Implementadores",
+            "url": "https://www.udemy.com/certificate/UC-638851a8-8e82-49d5-bd6e-afbdd20345e3"
+        },
+        {
+            "title": "Ultimate Python: de cero a programador experto",
+            "url": "https://www.udemy.com/certificate/UC-18b7eca0-b4f6-4054-8d8c-5fcb45916996/"
+        },
+        {
+            "title": "Máster en Seguridad Informática. Curso completo de Hacking.",
+            "url": "https://www.udemy.com/certificate/UC-1aa68e47-5908-4720-8224-6b6c2ee00b73"
+        },
+        {
+            "title": "Python Pandas Data Crash Course 2024 Learn by Doing.",
+            "url": "https://www.udemy.com/certificate/UC-d1c78c64-59a5-4a89-9d9e-954b5b9cf678"
+        },
+        {
+            "title": "Flask - Construye aplicaciones web profesionales con Python.",
+            "url": "https://www.udemy.com/certificate/UC-54759bcc-4a0e-4f35-a621-3663e6be3732/"
+        },
+    ]
 
 }
