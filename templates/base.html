@@ -63,7 +63,13 @@
         <div class="row">
           <div class="col-12">
             <h2 class="text-center">{{languaje.courses_title}}</h2>
-
+            <ul>
+              {% for course in generals.courses %}
+              <li>
+                <a target="_blank" href=" {{course.url}}">{{course.title}}</a>
+              </li>
+              {% endfor %}
+            </ul>
           </div>
         </div>
       </div>
