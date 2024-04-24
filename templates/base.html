@@ -10,14 +10,17 @@
 </head>
 
 <body>
-  <div class="container mt-5">
-    <div class="row d-flex align-items-center mb-5">
-      <div class="col-6 d-flex justify-content-end">
-        <img id="perfil_img" src="{{perfil_img}}" alt="perfil_img" class="img-thumbnail img-fluid rounded-circle" />
-      </div>
-      <div class="col-6">
-        <h2>Felipe M.</h2>
-        <i>{{languaje.short_title | safe }}</i>
+  <div class="container mt-4">
+    <div class="row d-flex  justi mb-4">
+      <div class="col-12 d-flex justify-content-center align-items-center">
+        <div class="">
+          <img id="perfil_img" src="{{perfil_img}}" alt="perfil_img"
+            class="img-thumbnail img-fluid rounded-circle shadow p-1 m-2 bg-white rounded" />
+        </div>
+        <div class="">
+          <h2>Felipe M.</h2>
+          <i>{{languaje.short_title | safe }}</i>
+        </div>
       </div>
     </div>
     <hr />
