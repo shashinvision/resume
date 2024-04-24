@@ -11,8 +11,10 @@ def index(languaje = 'english'):
         css_bootstrap_url = url_for('static', filename = 'css/bootstrap.min.css')
         js_bootstrap_url = url_for('static', filename = 'js/bootstrap.bundle.min.js')
         perfil_img = url_for('static', filename = 'imgs/perfil.jpeg')
+        icon = url_for('static', filename = 'imgs/perfil.ico')
+
 
         
         set_languaje =  english if languaje == 'english' else spanish
 
-        return render_template("base.html", css_bootstrap_url = css_bootstrap_url, style_url=style_url, js_bootstrap_url = js_bootstrap_url,perfil_img=perfil_img, languaje=set_languaje, generals=generals )
+        return render_template("base.html", css_bootstrap_url = css_bootstrap_url, style_url=style_url, js_bootstrap_url = js_bootstrap_url,perfil_img=perfil_img, icon=icon, languaje=set_languaje, generals=generals )
