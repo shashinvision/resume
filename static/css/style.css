@@ -15,10 +15,10 @@ a{
 
 }
 a:hover {
-    color: rgb(205, 205, 205);
+    color: grey;
 }
 .language{
-        color: grey;
+        color: rgb(98, 98, 98);
 }
 .active{
     color: black;
