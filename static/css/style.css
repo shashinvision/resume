@@ -23,3 +23,27 @@ a:hover {
 .active{
     color: black;
 }
+
+.border {
+    border-left: 2px solid grey !important;
+    padding-left: 24px;
+    position: relative;
+}
+
+.border::before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    /* Adjust this value to position the circle */
+    left: -8px;
+    /* Adjust this value to position the circle */
+    width: 16px;
+    /* Adjust this value to change the size of the circle */
+    height: 16px;
+    /* Adjust this value to change the size of the circle */
+    background-color: grey;
+    /* Change the color of the circle */
+    border-radius: 50%;
+    /* Shape the circle */
+    
+}

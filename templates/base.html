@@ -7,7 +7,7 @@
   <title>{{ language.title }} | Felipe M.</title>
   <link rel="stylesheet" href="{{ css_bootstrap_url }}" />
   <link rel="stylesheet" href="{{ style_url }}" />
-  <link rel="icon" type="image/x-icon" href="{{ icon }}">
+  <link rel="icon" type="image/x-icon" href="{{ icon }}" />
 </head>
 
 <body>
@@ -19,7 +19,7 @@
             <a class="language {% if language.language == 'english' %}active{% endif %}"
               href="{{url_for('index', language='english')}}">English</a>
           </div>
-          <div style="margin:0 5px;"></div>
+          <div style="margin: 0 5px"></div>
           <div>
             <a class="language {% if language.language == 'spanish' %}active{% endif %}"
               href="{{url_for('index', language='spanish')}}">Spanish</a>
@@ -27,7 +27,7 @@
         </div>
       </div>
     </div>
-    <div class="row d-flex  justi mb-4">
+    <div class="row d-flex justi mb-4">
       <div class="col-12 d-flex justify-content-center align-items-center">
         <div class="">
           <img id="perfil_img" src="{{perfil_img}}" alt="perfil_img"
@@ -41,33 +41,22 @@
     </div>
 
     <hr />
-    <div class="row">
-      <div class="col-12">
-        <h2 class="text-center">{{language.about_me_title }}</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <p class="text-center">{{language.about_me }}</p>
-      </div>
-    </div>
+
     <div class="row">
       <div class="col-6">
         <div class="row">
           <div class="col-12">
-            <h2 class="text-center">{{language.skills_title}}</h2>
+            <h2 class="">{{language.skills_title}}</h2>
             <ul>
               {% for general in generals.skills %}
-              <li>
-                {{general}}
-              </li>
+              <li>{{general}}</li>
               {% endfor %}
             </ul>
           </div>
         </div>
         <div class="row">
           <div class="col-12">
-            <h2 class="text-center">{{language.education_title}}</h2>
+            <h2 class="">{{language.education_title}}</h2>
             {% for education in language.education %}
             <div>
               <h5 class="fw-bold mb-0">{{education.title}}</h5>
@@ -79,7 +68,7 @@
         </div>
         <div class="row">
           <div class="col-12">
-            <h2 class="text-center">{{language.courses_title}}</h2>
+            <h2 class="">{{language.courses_title}}</h2>
             <ul>
               {% for course in generals.courses %}
               <li>
@@ -91,21 +80,36 @@
         </div>
       </div>
       <div class="col-6">
-        <h2 class="text-center">{{language.experience_title}}</h2>
-        {% for experience in language.experience %}
-        <div>
-          <h5 class="fw-bold mb-0">{{experience.title}}</h5>
-          <small class="text-muted">{{experience.date}}</small>
-          <p>{{experience.intitution}}</p>
-          <ul>
-            {% for list in experience.list %}
-            <li>
-              {{list}}
-            </li>
-            {% endfor %}
-          </ul>
+        <div class="row">
+          <div class="col-12">
+            <h2 class="">{{language.about_me_title }}</h2>
+          </div>
         </div>
-        {% endfor %}
+        <div class="row">
+          <div class="col-12">
+            <p class="">{{language.about_me }}</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <h2 class="">{{language.experience_title}}</h2>
+            {% for experience in language.experience %}
+            <div class="border">
+              <h5 class="fw-bold mb-0">{{experience.title}}</h5>
+              <small class="text-muted">{{experience.date}}</small>
+              <p>{{experience.intitution}}</p>
+              <ul>
+                {% for list in experience.list %}
+                <li>{{list}}</li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+
+
       </div>
     </div>
     <div class="row">
