@@ -179,18 +179,22 @@ generals = {
     "contact":[
         {
             "icon": "",
+            "name": "Github",
             "url": "https://github.com/shashinvision"
         },
         {
             "icon": "",
+            "name": "Linkedin",
             "url": "https://www.linkedin.com/in/shashinv/"
         },
         {
             "icon": "",
+            "name": "Youtube",
             "url": "https://www.youtube.com/c/FelipeMSV/videos"
         },
         {
-        "icon": "",
+            "icon": "",
+            "name": "Email",
             "url": "felipei.mancilla@gmail.com"
         },
         ],
