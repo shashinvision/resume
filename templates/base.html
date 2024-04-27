@@ -28,6 +28,8 @@
       </div>
     </div>
     <hr />
+
+
     <div class="row">
       <div class="col-6">
         <div class="row d-flex justi mb-4">
@@ -44,48 +46,13 @@
         </div>
         <div class="row">
           <div class="col-12">
-            <h2 class="">{{language.skills_title}}</h2>
-            <ul>
-              {% for general in generals.skills %}
-              <li>{{general}}</li>
-              {% endfor %}
-            </ul>
+            {% for contact in generals.contact | reverse %}
+            <span>{{contact.url }}</span><br>
+            {% endfor%}
           </div>
         </div>
-        <div class="row">
-          <div class="col-12">
-            <h2 class="">{{language.education_title}}</h2>
-            {% for education in language.education %}
-            <div>
-              <h5 class="fw-bold mb-0">{{education.title}}</h5>
-              <small class="text-muted">{{education.date}}</small>
-              <p>{{education.intitution}}</p>
-            </div>
-            {% endfor %}
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <h2 class="">{{language.courses_title}}</h2>
-            <ul>
-              {% for course in generals.courses %}
-              <li>
-                <a target="_blank" href=" {{course.url}}">{{course.title}}</a>
-              </li>
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
-
       </div>
       <div class="col-6">
-        <div class="row">
-          <div class="col-12">
-            <h2>{{language.contact_title}}</h2>
-            <p>{{language.contact_description}}</p>
-            <p>{{generals.email}}</p>
-          </div>
-        </div>
 
         <div class="row">
           <div class="col-12">
@@ -98,6 +65,58 @@
           </div>
         </div>
 
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- left column -->
+      <div class="col-6">
+
+
+        <div class="row">
+          <div class="col-12">
+            <h2 class="">{{language.education_title}}</h2>
+            {% for education in language.education %}
+            <div class="border">
+              <h5 class="fw-bold mb-0">{{education.title}}</h5>
+              <small class="text-muted">{{education.date}}</small>
+              <p>{{education.intitution}}</p>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-12">
+            <h2 class="">{{language.skills_title}}</h2>
+            <div class="border">
+              {% for general in generals.skills %}
+              <span>{{general}}</span><br>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-12">
+            <h2 class="">{{language.courses_title}}</h2>
+            <div class="border">
+              {% for course in generals.courses %}
+              <span>
+                <a target="_blank" href=" {{course.url}}">{{course.title}}</a>
+              </span><br>
+              {% endfor %}
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- right column -->
+      <div class="col-6">
 
         <div class="row">
           <div class="col-12">
@@ -116,6 +135,7 @@
             {% endfor %}
           </div>
         </div>
+
       </div>
     </div>
 

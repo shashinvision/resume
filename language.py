@@ -114,7 +114,6 @@ spanish = {
     "courses_title": "Cursos",
     "courses_description": "En esta sección puede ver los cursos aprobados y certificados por mí, haga clic en el título de los cursos para ver el certificado en línea.",
     "contact_title": "Contacto",
-    "contact_description": "Puedes contactarme vía correo electronico a:",
     "experience": [
         {
             "title": "INGENIERO DE SOFTWARE",
@@ -177,7 +176,24 @@ spanish = {
 generals = {
 
     "skills":["Linux / MacOsx / Unix / Tmux / Windows", "Python / Flask / Pandas / Jupyter", "PHP / CodeIgniter / Laravel", "JavaScript / React / Vue / Vuex / Nuxt / Ionic", "Micro Frontend | Modyo", "API REST", "Bash", "HTML5 / CSS3", "GIT", "CMS (Wordpress, Joomla, Drupal, Prestashop)", "Docker / Docker Compose", "SQL (MYSQL/MariaDB, SQL Server, PostgreSQL, SQLite)", "MongoDB", "Cloud: AWS / Azure", "Software architecture", "SOLID", "Figma", "Flow diagrams / UML / BPMN", "Excel", "BI - Data analyst", "Bash", "Web scraping", "Odoo ERP/CRM", "Agile (KANBAN, SCRUM)"],
-    "email":"felipei.mancilla@gmail.com",
+    "contact":[
+        {
+            "icon": "",
+            "url": "https://github.com/shashinvision"
+        },
+        {
+            "icon": "",
+            "url": "https://www.linkedin.com/in/shashinv/"
+        },
+        {
+            "icon": "",
+            "url": "https://www.youtube.com/c/FelipeMSV/videos"
+        },
+        {
+        "icon": "",
+            "url": "felipei.mancilla@gmail.com"
+        },
+        ],
     "courses":[
         {
             "title": "Todo PHP7 y MySQL, de básico a experto",
