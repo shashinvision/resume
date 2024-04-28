@@ -79,7 +79,7 @@
       <div class="col-sm-12 col-md-6">
 
 
-        <div class="row mb-1">
+        <div class="row mb-3">
           <div class="col-12">
             <p class="h2 mb-3">{{language.education_title}}</p>
             {% for education in language.education %}
@@ -93,7 +93,7 @@
         </div>
 
 
-        <div class="row mb-1">
+        <div class="row mb-3">
           <div class="col-12">
             <p class="h2 mb-3">{{language.skills_title}}</p>
             <div class="border">
@@ -105,14 +105,14 @@
         </div>
 
 
-        <div class="row mb-1">
+        <div class="row mb-3">
           <div class="col-12">
             <p class="h2 mb-3">{{language.courses_title}}</p>
             <div class="border">
               {% for course in generals.courses %}
-              <span>
+              <div class="mb-2">
                 <a target="_blank" href=" {{course.url}}">{{course.title}}</a>
-              </span><br>
+              </div>
               {% endfor %}
             </div>
 
@@ -124,7 +124,7 @@
       <!-- right column -->
       <div class="col-sm-12 col-md-6">
 
-        <div class="row mb-1">
+        <div class="row mb-3">
           <div class="col-12">
             <p class="h2 mb-3">{{language.experience_title}}</p>
             {% for experience in language.experience %}
@@ -145,7 +145,7 @@
       </div>
     </div>
     <hr>
-    <footer class="row mb-1 d-flex align-items-center align-content-center justify-content-between">
+    <footer class="row mb-3 d-flex align-items-center align-content-center justify-content-between">
       <div class="col-sm-12 col-md-1 m-3">
         <b class="h4">
           {{language.contact_title}}
