@@ -12,7 +12,7 @@
 
 <body>
   <div class="container mt-4">
-    <div class="row">
+    <div class="row mb-1">
       <div class="col-12">
         <div class="d-flex justify-content-start align-content-center">
           <div>
@@ -30,11 +30,11 @@
     <hr />
 
 
-    <div class="row">
+    <div class="row mb-1">
       <div class="col-sm-12 col-md-6">
-        <div class="row d-flex justi mb-4">
+        <div class="row mb-1 d-flex justi mb-4">
           <div class="col-12">
-            <div class="row d-flex justify-content-start align-items-center">
+            <div class="row mb-1 d-flex justify-content-start align-items-center">
               <div class="col-sm-12 col-md-3 ">
                 <img id="perfil_img" src="{{perfil_img}}" alt="perfil_img"
                   class="img-thumbnail img-fluid rounded-circle shadow p-1 m-2 bg-white rounded" />
@@ -59,12 +59,12 @@
       </div>
       <div class="col-sm-12 col-md-6">
 
-        <div class="row">
+        <div class="row mb-1">
           <div class="col-12">
-            <h2 class="">{{language.about_me_title }}</h2>
+            <p class="h2 mb-3">{{language.about_me_title }}</p>
           </div>
         </div>
-        <div class="row">
+        <div class="row mb-1">
           <div class="col-12">
             <p class="">{{language.about_me }}</p>
           </div>
@@ -74,14 +74,14 @@
     </div>
 
 
-    <div class="row">
+    <div class="row mb-1">
       <!-- left column -->
       <div class="col-sm-12 col-md-6">
 
 
-        <div class="row">
+        <div class="row mb-1">
           <div class="col-12">
-            <h2 class="">{{language.education_title}}</h2>
+            <p class="h2 mb-3">{{language.education_title}}</p>
             {% for education in language.education %}
             <div class="border">
               <p class="fw-bold mb-0 h5">{{education.title}}</p>
@@ -93,9 +93,9 @@
         </div>
 
 
-        <div class="row">
+        <div class="row mb-1">
           <div class="col-12">
-            <h2 class="">{{language.skills_title}}</h2>
+            <p class="h2 mb-3">{{language.skills_title}}</p>
             <div class="border">
               {% for general in generals.skills %}
               <span>{{general}}</span><br>
@@ -105,9 +105,9 @@
         </div>
 
 
-        <div class="row">
+        <div class="row mb-1">
           <div class="col-12">
-            <h2 class="">{{language.courses_title}}</h2>
+            <p class="h2 mb-3">{{language.courses_title}}</p>
             <div class="border">
               {% for course in generals.courses %}
               <span>
@@ -124,9 +124,9 @@
       <!-- right column -->
       <div class="col-sm-12 col-md-6">
 
-        <div class="row">
+        <div class="row mb-1">
           <div class="col-12">
-            <h2 class="">{{language.experience_title}}</h2>
+            <p class="h2 mb-3">{{language.experience_title}}</p>
             {% for experience in language.experience %}
             <div class="border">
               <p class="fw-bold mb-0 h5">{{experience.title}}</p>
@@ -145,7 +145,7 @@
       </div>
     </div>
     <hr>
-    <footer class="row d-flex align-items-center align-content-center justify-content-between">
+    <footer class="row mb-1 d-flex align-items-center align-content-center justify-content-between">
       <div class="col-sm-12 col-md-1 m-3">
         <b class="h4">
           {{language.contact_title}}
