@@ -77,8 +77,27 @@
     <div class="row mb-1">
       <!-- left column -->
       <div class="col-sm-12 col-md-6">
+        <div class="row mb-3">
+          <div class="col-12">
+            <p class="h2 mb-3">{{language.experience_title}}</p>
+            {% for experience in language.experience %}
+            <div class="border">
+              <p class="fw-bold mb-0 h5">{{experience.title}}</p>
+              <small class="text-muted">{{experience.date}}</small>
+              <p>{{experience.intitution}}</p>
+              <ul>
+                {% for list in experience.list %}
+                <li>{{list}}</li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
 
-
+      <!-- right column -->
+      <div class="col-sm-12 col-md-6">
         <div class="row mb-3">
           <div class="col-12">
             <p class="h2 mb-3">{{language.education_title}}</p>
@@ -116,29 +135,6 @@
               {% endfor %}
             </div>
 
-          </div>
-        </div>
-
-      </div>
-
-      <!-- right column -->
-      <div class="col-sm-12 col-md-6">
-
-        <div class="row mb-3">
-          <div class="col-12">
-            <p class="h2 mb-3">{{language.experience_title}}</p>
-            {% for experience in language.experience %}
-            <div class="border">
-              <p class="fw-bold mb-0 h5">{{experience.title}}</p>
-              <small class="text-muted">{{experience.date}}</small>
-              <p>{{experience.intitution}}</p>
-              <ul>
-                {% for list in experience.list %}
-                <li>{{list}}</li>
-                {% endfor %}
-              </ul>
-            </div>
-            {% endfor %}
           </div>
         </div>
 
