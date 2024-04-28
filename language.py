@@ -24,7 +24,7 @@ english = {
     "skills_title":"Skills / Experience",
     "experience_title":"Professional experience",
     "education_title":"Education",
-    "courses_title": "Courses",
+    "courses_title": "Certificate Courses",
     "courses_description": "In this section you can see the courses passed and certified by me, please click in the courses title to see the online certificate.",
     "contact_title": "Contact",
     "contact_description": "You can contact me for email at:",
@@ -111,7 +111,7 @@ spanish = {
     "skills_title":"Habilidades / Experiencia",
     "experience_title":"Experiencia Profesional",
     "education_title":"Educación",  
-    "courses_title": "Cursos",
+    "courses_title": "Cursos Certificados",
     "courses_description": "En esta sección puede ver los cursos aprobados y certificados por mí, haga clic en el título de los cursos para ver el certificado en línea.",
     "contact_title": "Contacto",
     "experience": [
