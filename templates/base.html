@@ -48,7 +48,7 @@
 
           <div class="col-sm-12 col-md-6 mt-3 d-flex justify-content-between">
             {% for contact in generals.contact | reverse %}
-            <div>
+            <div class="mx-1">
               <a href="{% if contact.name=='Email'%}mailto:{%endif%}{{contact.url }}" target="_blank"
                 rel="noopener noreferrer">{{contact.name}}</a>
             </div>
