@@ -1,166 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ language.title }} | Felipe M.</title>
+    <link rel="stylesheet" href="{{ css_bootstrap_url }}" />
+    <link rel="stylesheet" href="{{ style_url }}" />
+    <link rel="icon" type="image/x-icon" href="{{ icon }}" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{ language.title }} | Felipe M.</title>
-  <link rel="stylesheet" href="{{ css_bootstrap_url }}" />
-  <link rel="stylesheet" href="{{ style_url }}" />
-  <link rel="icon" type="image/x-icon" href="{{ icon }}" />
-</head>
-
-<body>
-  <div class="container mt-4">
-    <div class="row mb-1">
-      <div class="col-12">
-        <div class="d-flex justify-content-start align-content-center">
-          <div>
-            <a class="language {% if language.language == 'english' %}active{% endif %}"
-              href="{{url_for('index', language='english')}}">English</a>
-          </div>
-          <div style="margin: 0 5px"></div>
-          <div>
-            <a class="language {% if language.language == 'spanish' %}active{% endif %}"
-              href="{{url_for('index', language='spanish')}}">Spanish</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <hr />
-
-
-    <div class="row mb-1">
-      <div class="col-sm-12 col-md-6">
-        <div class="row mb-1 d-flex justi mb-4">
-          <div class="col-12">
-            <div class="row mb-1 d-flex justify-content-start align-items-center">
-              <div class="col-sm-12 col-md-3 ">
-                <img id="perfil_img" src="{{perfil_img}}" alt="perfil_img"
-                  class="img-thumbnail img-fluid rounded-circle shadow p-1 m-2 bg-white rounded" />
-              </div>
-              <div class="col-sm-12 col-md-9 ">
-                <h2>Felipe M.</h2>
-                <i>{{language.short_title | safe }}</i>
-              </div>
+  <body>
+    <div class="container mt-4">
+      <div class="row mb-1">
+        <div class="col-12">
+          <div class="d-flex justify-content-start align-content-center">
+            <div>
+              <a
+                class="language {% if language.language == 'english' %}active{% endif %}"
+                href="{{url_for('index', language='english')}}"
+                >English</a
+              >
+            </div>
+            <div style="margin: 0 5px"></div>
+            <div>
+              <a
+                class="language {% if language.language == 'spanish' %}active{% endif %}"
+                href="{{url_for('index', language='spanish')}}"
+                >Spanish</a
+              >
             </div>
           </div>
+        </div>
+      </div>
+      <hr />
 
-          <div class="col-sm-12 col-md-6 mt-3 d-flex justify-content-between">
-            {% for contact in generals.contact | reverse %}
-            <div class="mx-1">
-              <a href="{% if contact.name=='Email'%}mailto:{%endif%}{{contact.url }}" target="_blank"
-                rel="noopener noreferrer">{{contact.name}}</a>
+      <div class="row mb-1">
+        <div class="col-sm-12 col-md-6">
+          <div class="row mb-1 d-flex justi mb-4">
+            <div class="col-12">
+              <div
+                class="row mb-1 d-flex justify-content-start align-items-center"
+              >
+                <div class="col-sm-12 col-md-3">
+                  <img
+                    id="perfil_img"
+                    src="{{perfil_img}}"
+                    alt="perfil_img"
+                    class="img-thumbnail img-fluid rounded-circle shadow p-1 m-2 bg-white rounded"
+                  />
+                </div>
+                <div class="col-sm-12 col-md-9">
+                  <h2>Felipe M.</h2>
+                  <i>{{language.short_title | safe }}</i>
+                </div>
+              </div>
             </div>
-            {% endfor%}
-          </div>
 
+            <div class="col-sm-12 col-md-6 mt-3 d-flex justify-content-between">
+              {% for contact in generals.contact | reverse %}
+              <div class="mx-1">
+                <a
+                  href="{% if contact.name=='Email'%}mailto:{%endif%}{{contact.url }}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >{{contact.name}}</a
+                >
+              </div>
+              {% endfor%}
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <div class="row mb-1">
+            <div class="col-12">
+              <p class="h2 mb-3">{{language.about_me_title }}</p>
+            </div>
+          </div>
+          <div class="row mb-1">
+            <div class="col-12">
+              <p class="">{{language.about_me }}</p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-sm-12 col-md-6">
 
-        <div class="row mb-1">
-          <div class="col-12">
-            <p class="h2 mb-3">{{language.about_me_title }}</p>
+      <div class="row mb-1">
+        <!-- left column -->
+        <div class="col-sm-12 col-md-6">
+          <div class="row mb-3">
+            <div class="col-12">
+              <p class="h2 mb-3">{{language.experience_title}}</p>
+              {% for experience in language.experience %}
+              <div class="border">
+                <p class="fw-bold mb-0 h5">{{experience.title}}</p>
+                <small class="text-muted">{{experience.date}}</small>
+                <p>{{experience.intitution}}</p>
+                <ul>
+                  {% for list in experience.list %}
+                  <li>{{list}}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+              {% endfor %}
+            </div>
           </div>
         </div>
-        <div class="row mb-1">
-          <div class="col-12">
-            <p class="">{{language.about_me }}</p>
-          </div>
-        </div>
 
-      </div>
-    </div>
-
-
-    <div class="row mb-1">
-      <!-- left column -->
-      <div class="col-sm-12 col-md-6">
-        <div class="row mb-3">
-          <div class="col-12">
-            <p class="h2 mb-3">{{language.experience_title}}</p>
-            {% for experience in language.experience %}
-            <div class="border">
-              <p class="fw-bold mb-0 h5">{{experience.title}}</p>
-              <small class="text-muted">{{experience.date}}</small>
-              <p>{{experience.intitution}}</p>
-              <ul>
-                {% for list in experience.list %}
-                <li>{{list}}</li>
+        <!-- right column -->
+        <div class="col-sm-12 col-md-6">
+          <div class="row mb-3">
+            <div class="col-12">
+              <p class="h2 mb-3">{{language.skills_title}}</p>
+              <div class="border">
+                {% for general in generals.skills %}
+                <span>{{general}}</span><br />
                 {% endfor %}
-              </ul>
-            </div>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-
-      <!-- right column -->
-      <div class="col-sm-12 col-md-6">
-        <div class="row mb-3">
-          <div class="col-12">
-            <p class="h2 mb-3">{{language.education_title}}</p>
-            {% for education in language.education %}
-            <div class="border">
-              <p class="fw-bold mb-0 h5">{{education.title}}</p>
-              <small class="text-muted">{{education.date}}</small>
-              <p>{{education.intitution}}</p>
-            </div>
-            {% endfor %}
-          </div>
-        </div>
-
-
-        <div class="row mb-3">
-          <div class="col-12">
-            <p class="h2 mb-3">{{language.skills_title}}</p>
-            <div class="border">
-              {% for general in generals.skills %}
-              <span>{{general}}</span><br>
-              {% endfor %}
+              </div>
             </div>
           </div>
-        </div>
 
-
-        <div class="row mb-3">
-          <div class="col-12">
-            <p class="h2 mb-3">{{language.courses_title}}</p>
-            <div class="border">
-              {% for course in generals.courses %}
-              <div class="mb-2">
-                <a target="_blank" href=" {{course.url}}">{{course.title}}</a>
+          <div class="row mb-3">
+            <div class="col-12">
+              <p class="h2 mb-3">{{language.education_title}}</p>
+              {% for education in language.education %}
+              <div class="border">
+                <p class="fw-bold mb-0 h5">{{education.title}}</p>
+                <small class="text-muted">{{education.date}}</small>
+                <p>{{education.intitution}}</p>
               </div>
               {% endfor %}
             </div>
+          </div>
 
+          <div class="row mb-3">
+            <div class="col-12">
+              <p class="h2 mb-3">{{language.courses_title}}</p>
+              <div class="border">
+                {% for course in generals.courses %}
+                <div class="mb-2">
+                  <a target="_blank" href=" {{course.url}}">{{course.title}}</a>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
           </div>
         </div>
-
       </div>
-    </div>
-    <hr>
-    <footer class="row mb-3 d-flex align-items-center align-content-center justify-content-between">
-      <div class="col-sm-12 col-md-1 m-3">
-        <b class="h4">
-          {{language.contact_title}}
-        </b>
-      </div>
-      <div class="col-sm-12 col-md-6 d-flex justify-content-start">
-        {% for contact in generals.contact | reverse %}
-        <div class="m-3">
-          <a href="{% if contact.name=='Email'%}mailto:{%endif%}{{contact.url }}" target="_blank"
-            rel="noopener noreferrer">{{contact.name}}</a>
+      <hr />
+      <footer
+        class="row mb-3 d-flex align-items-center align-content-center justify-content-between"
+      >
+        <div class="col-sm-12 col-md-1 m-3">
+          <b class="h4"> {{language.contact_title}} </b>
         </div>
-        {% endfor %}
-      </div>
-      <div class="col-sm-12 col-md-2">
-        <b><i>© Copyright Felipe M. {{current_year}}</i></b>
-      </div>
-    </footer>
-  </div>
-  <script src="{{ js_bootstrap_url }}"></script>
-</body>
-
+        <div class="col-sm-12 col-md-6 d-flex justify-content-start">
+          {% for contact in generals.contact | reverse %}
+          <div class="m-3">
+            <a
+              href="{% if contact.name=='Email'%}mailto:{%endif%}{{contact.url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+              >{{contact.name}}</a
+            >
+          </div>
+          {% endfor %}
+        </div>
+        <div class="col-sm-12 col-md-2">
+          <b><i>© Copyright Felipe M. {{current_year}}</i></b>
+        </div>
+      </footer>
+    </div>
+    <script src="{{ js_bootstrap_url }}"></script>
+  </body>
 </html>
