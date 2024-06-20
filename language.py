@@ -316,10 +316,6 @@ generals = {
             "url": "https://www.udemy.com/certificate/UC-980777cf-4ceb-4fa1-83b6-2a36fdc64978/"
         },
         {
-            "title": "English B1 Certificate!",
-            "url": "https://drive.google.com/file/d/1-TGjnK23w7NbCEn1R8KZfTi1WmHuE6b7/view?usp=sharing"
-        },
-        {
             "title": "Curso de Odoo 13 | 14 | 15 Técnico para Implementadores",
             "url": "https://www.udemy.com/certificate/UC-cb50a43a-11db-400c-96e6-2b6992a7911d/"
         },
@@ -342,6 +338,14 @@ generals = {
         {
             "title": "Flask - Construye aplicaciones web profesionales con Python.",
             "url": "https://www.udemy.com/certificate/UC-54759bcc-4a0e-4f35-a621-3663e6be3732/"
+        },
+        {
+            "title": "English B1 Certificate!",
+            "url": "https://drive.google.com/file/d/1-TGjnK23w7NbCEn1R8KZfTi1WmHuE6b7/view?usp=sharing"
+        },
+        {
+            "title": "English B2 Certificate!",
+            "url": "https://drive.google.com/file/d/1FCetsnpLhySzPkGZUdFx0eJHfK8kcCrK/view?usp=sharing"
         },
     ]
 
