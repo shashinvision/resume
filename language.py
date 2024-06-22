@@ -28,6 +28,7 @@ english = {
     "courses_description": "In this section you can see the courses passed and certified by me, please click in the courses title to see the online certificate.",
     "contact_title": "Contact",
     "contact_description": "You can contact me for email at:",
+    "contact_schedule": "My schedule",
     "experience": [
         {
             "title": "SOFTWARE ENGINEER",
@@ -114,6 +115,7 @@ spanish = {
     "courses_title": "Cursos certificados",
     "courses_description": "En esta sección puede ver los cursos aprobados y certificados por mí, haga clic en el título de los cursos para ver el certificado en línea.",
     "contact_title": "Contacto",
+    "contact_schedule": "Mi Agenda",
     "experience": [
         {
             "title": "INGENIERO DE SOFTWARE",
@@ -196,6 +198,11 @@ generals = {
             "icon": "",
             "name": "Email",
             "url": "felipei.mancilla@gmail.com"
+        },
+        {
+            "icon": "",
+            "name": "Calendly",
+            "url": "https://calendly.com/felipei-mancilla/30min"
         },
         ],
     "courses":[
