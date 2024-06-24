@@ -7,6 +7,29 @@
     <link rel="stylesheet" href="{{ css_bootstrap_url }}" />
     <link rel="stylesheet" href="{{ style_url }}" />
     <link rel="icon" type="image/x-icon" href="{{ icon }}" />
+
+    <!-- Calendly badge widget begin -->
+    <link
+      href="https://assets.calendly.com/assets/external/widget.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://assets.calendly.com/assets/external/widget.js"
+      type="text/javascript"
+      async
+    ></script>
+    <script type="text/javascript">
+      window.onload = function () {
+        Calendly.initBadgeWidget({
+          url: "https://calendly.com/felipei-mancilla/30min",
+          text: "Contact",
+          color: "#aaaaaa",
+          textColor: "#ffffff",
+          branding: undefined,
+        });
+      };
+    </script>
+    <!-- Calendly badge widget end -->
   </head>
 
   <body>
