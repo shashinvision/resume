@@ -1,28 +1,14 @@
-body{
-    background-color: #E0DDE0;
-}
-.container {
-    width: 80%;
-}
 
 #perfil_img{
     width: 120px;
 }
-a{
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
 
-}
-a:hover {
-    color: grey;
-}
 .language{
         color: rgb(98, 98, 98);
 }
-.active{
+/* .active{
     color: black;
-}
+} */
 
 .border {
     border-left: 2px solid grey !important;
@@ -49,4 +35,12 @@ a:hover {
 }
 li{
     list-style-type: none;
+}
+
+.logo span{
+    font-size: 2.5em;
+    line-height: inherit;
+}
+.center_ul {
+    text-align: center;
 }

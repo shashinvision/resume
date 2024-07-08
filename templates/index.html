@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Felipe M.</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="static/assets/css/main.css" />
+    <link rel="stylesheet" href="static/css/style.css" />
+    <noscript
+      ><link rel="stylesheet" href="static/assets/css/noscript.css"
+    /></noscript>
+    <link rel="icon" type="image/x-icon" href="{{ icon }}" />
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <div class="logo">
+          <span class="fa fa-code"></span>
+        </div>
+        <div class="content">
+          <div class="inner">
+            <h1>Felipe M.</h1>
+            <p>{{language.short_title | safe }}</p>
+            <i>{{language.description_question | safe }}</i>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#about">{{language.about_me_title }}</a></li>
+            <li><a href="#work">{{language.experience_title}}</a></li>
+            <li><a href="#skills">{{language.skills_title}}</a></li>
+            <li><a href="#courses">{{language.courses_title}}</a></li>
+            <li><a href="#contact">{{language.contact_title}}</a></li>
+            <!--<li><a href="#elements">Elements</a></li>-->
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Main -->
+      <div id="main">
+        <!-- About -->
+        <article id="about">
+          <h2 class="major">{{language.about_me_title }}</h2>
+          <span class="image main"
+            ><img src="static/images/pic03.jpg" alt=""
+          /></span>
+          <p>{{language.about_me | safe }}</p>
+        </article>
+
+        <!-- Work -->
+        <article id="work">
+          <h2 class="major">{{language.experience_title}}</h2>
+          <span class="image main"
+            ><img src="static/images/pic02.jpg" alt=""
+          /></span>
+
+          <div class="row mb-1">
+            <div class="col-12">
+              <div class="row mb-3">
+                <div class="col-12">
+                  {% for experience in language.experience %}
+                  <div class="border">
+                    <p class="fw-bold mb-0 h5">{{experience.title}}</p>
+                    <small class="">{{experience.date}}</small>
+                    <p>{{experience.intitution}}</p>
+                    <ul>
+                      {% for list in experience.list %}
+                      <li>{{list}}</li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- skills -->
+        <article id="skills">
+          <h2 class="major">
+            <li><a href="#skills">{{language.skills_title}}</a></li>
+          </h2>
+          <span class="image main"
+            ><img src="static/images/pic01.jpg" alt=""
+          /></span>
+          <div class="row mb-1">
+            <div class="col-12">
+              <div class="row mb-3">
+                <div class="col-12">
+                  <div class="border">
+                    {% for general in generals.skills %}
+                    <span>{{general}}</span><br />
+                    {% endfor %}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Courses -->
+        <article id="courses">
+          <h2 class="major">{{language.courses_title}}</h2>
+          <span class="image main"
+            ><img src="static/images/pic01.jpg" alt=""
+          /></span>
+          <div class="row mb-1">
+            <div class="col-12">
+              <div class="row mb-3">
+                <div class="col-12">
+                  <div class="border">
+                    {% for course in generals.courses %}
+                    <div class="mb-2">
+                      <a target="_blank" href=" {{course.url}}"
+                        >{{course.title}}</a
+                      >
+                    </div>
+                    {% endfor %}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Contact -->
+        <article id="contact">
+          <h2 class="major">{{language.contact_title}}</h2>
+          <ul class="icons center_ul">
+            {% for contact in generals.contact | reverse %}
+            <li>
+              <a
+                href="{% if contact.name=='Email'%}mailto:{%endif%}{{contact.url }}"
+                target="_blank"
+                class="icon {{contact.icon}}"
+                ><span class="label">{{contact.name}}</span></a
+              >
+            </li>
+            {% endfor %}
+          </ul>
+
+          <!-- Calendly inline widget begin -->
+          <div
+            class="calendly-inline-widget"
+            data-url="https://calendly.com/felipei-mancilla/30min"
+            style="min-width: 320px; height: 1080px"
+          ></div>
+          <script
+            type="text/javascript"
+            src="https://assets.calendly.com/assets/external/widget.js"
+            async
+          ></script>
+          <!-- Calendly inline widget end -->
+        </article>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <p class="copyright">
+          &copy; Copyright Felipe M. {{current_year}} . Design UI By:
+          <a href="https://html5up.net">HTML5 UP</a>.
+        </p>
+      </footer>
+    </div>
+
+    <!-- BG -->
+    <div id="bg"></div>
+
+    <!-- Scripts -->
+    <script src="static/assets/js/jquery.min.js"></script>
+    <script src="static/assets/js/browser.min.js"></script>
+    <script src="static/assets/js/breakpoints.min.js"></script>
+    <script src="static/assets/js/util.js"></script>
+    <script src="static/assets/js/main.js"></script>
+  </body>
+</html>

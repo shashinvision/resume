@@ -180,27 +180,27 @@ generals = {
     "skills":["Linux / MacOsx / Unix / Tmux / Windows", "Python / Flask / Pandas / Jupyter", "PHP / CodeIgniter / Laravel", "JavaScript / React / Vue / Vuex / Nuxt / Ionic", "Micro Frontend | Modyo", "API REST", "Bash", "HTML5 / CSS3", "GIT", "CMS (Wordpress, Joomla, Drupal, Prestashop)", "Docker / Docker Compose", "SQL (MYSQL/MariaDB, SQL Server, PostgreSQL, SQLite)", "MongoDB", "Cloud: AWS / Azure", "Software architecture", "SOLID", "Figma", "Flow diagrams / UML / BPMN", "Excel", "BI - Data analyst", "Bash", "Web scraping", "Odoo ERP/CRM", "Agile (KANBAN, SCRUM)"],
     "contact":[
         {
-            "icon": "",
+            "icon": "brands fa-github",
             "name": "Github",
             "url": "https://github.com/shashinvision"
         },
         {
-            "icon": "",
+            "icon": "brands fa-linkedin",
             "name": "Linkedin",
             "url": "https://www.linkedin.com/in/shashinv/"
         },
         {
-            "icon": "",
+            "icon": "brands fa-youtube",
             "name": "Youtube",
             "url": "https://www.youtube.com/c/FelipeMSV/videos"
         },
         {
-            "icon": "",
+            "icon": "fa-envelope",
             "name": "Email",
             "url": "felipei.mancilla@gmail.com"
         },
         {
-            "icon": "",
+            "icon": "fa-calendar-alt",
             "name": "Calendly",
             "url": "https://calendly.com/felipei-mancilla/30min"
         },
