@@ -39,7 +39,7 @@
             <li><a href="#about">{{language.about_me_title }}</a></li>
             <li><a href="#work">{{language.experience_title}}</a></li>
             <li><a href="#skills">{{language.skills_title}}</a></li>
-            <li><a href="#courses">{{language.courses_title}}</a></li>
+            <li><a href="#courses">{{language.education_title}}</a></li>
             <li><a href="#contact">{{language.contact_title}}</a></li>
             <!--<li><a href="#elements">Elements</a></li>-->
           </ul>
@@ -111,10 +111,24 @@
 
         <!-- Courses -->
         <article id="courses">
-          <h2 class="major">{{language.courses_title}}</h2>
+          <h2 class="major">{{language.education_title}}</h2>
           <span class="image main"
             ><img src="static/images/pic01.jpg" alt=""
           /></span>
+
+          <div class="row mb-1">
+            <div class="col-12">
+              {% for education in language.education %}
+              <div class="border">
+                <p class="fw-bold mb-0 h5">{{education.title}}</p>
+                <small class="text-muted">{{education.date}}</small>
+                <p>{{education.intitution}}</p>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+          <hr />
+          <p class="h1 mb-3">{{language.courses_title}}</p>
           <div class="row mb-1">
             <div class="col-12">
               <div class="row mb-3">
@@ -167,10 +181,22 @@
 
       <!-- Footer -->
       <footer id="footer">
-        <p class="copyright">
-          &copy; Copyright Felipe M. {{current_year}} . Design UI By:
-          <a href="https://html5up.net">HTML5 UP</a>.
-        </p>
+        <ul class="icons center_ul">
+          {% for contact in generals.contact | reverse %}
+          <li>
+            <a
+              href="{% if contact.name=='Email'%}mailto:{%endif%}{{contact.url }}"
+              target="_blank"
+              class="icon {{contact.icon}}"
+              ><span class="label">{{contact.name}}</span></a
+            >
+          </li>
+          {% endfor %}
+        </ul>
+        <p class="copyright">&copy; Copyright Felipe M. {{current_year}}</p>
+        <i class="copyright" style="font-size: 8px">
+          Design UI powered by:<a href="https://html5up.net">HTML5 UP</a>.
+        </i>
       </footer>
     </div>
 
