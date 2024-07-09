@@ -160,13 +160,13 @@ spanish = {
             "list": ["Soporte informático de software, hardware y red.","Encargado de video conferencias entre Chile y el extranjero.", "Montar servidor Linux Web, MySQL y Samba.", "Desarrollador de sistema de registro de actividades, documentación e inventario en PHP/MySQL con Framework CodeIgniter3 (Programación orientada a objetos).", "Hardening a la plataforma orientado en endurecer la seguridad de ingreso a terceros."]
         },
         {
-            "title": "TSOPORTE TECNOLOGICO, DESARROLLADOR WEB",
+            "title": "SOPORTE TECNOLOGICO, DESARROLLADOR WEB",
             "date": "2010 - 2011",
             "intitution":"Ziron system.",
             "list": ["Soporte informático de software, hardware y red.", "Implementación de CMS Joomla para intranet de cliente."]
         },
         {
-            "title": "TSOPORTE TECNOLOGICO, DESARROLLADOR WEB",
+            "title": "SOPORTE TECNOLOGICO, DESARROLLADOR WEB",
             "date": "2007 - 2010",
             "intitution":"Ciber Group Contac-Center.",
             "list": ["Soporte informático de software, hardware y red. Mesa de Ayuda Minsal, Terpel."]
@@ -177,7 +177,7 @@ spanish = {
 
 generals = {
 
-    "skills":["Linux / MacOsx / Unix / Tmux / Windows", "Python / Flask / Pandas / Jupyter", "PHP / CodeIgniter / Laravel", "JavaScript / React / Vue / Vuex / Nuxt / Ionic","API REST",  "ETL", "Bash", "Web scraping", "Systems Monitoring", "IT Security",  "Micro Frontend | Modyo", "API REST", "Bash", "HTML5 / CSS3", "GIT", "CMS (Wordpress, Joomla, Drupal, Prestashop)", "Docker / Docker Compose", "SQL (MYSQL/MariaDB, SQL Server, PostgreSQL, SQLite)", "MongoDB", "Cloud: AWS / Azure", "Software architecture", "SOLID", "Figma", "Flow diagrams / UML / BPMN", "Excel", "BI - Data analyst", "Odoo ERP/CRM", "Agile (KANBAN, SCRUM)"],
+    "skills":["Linux / MacOsx / Unix / Tmux / Windows", "Python / Flask / Pandas / Jupyter", "PHP / CodeIgniter / Laravel", "JavaScript / React / Vue / Vuex / Nuxt / Ionic","API REST",  "ETL", "Task Automation",  "Bash", "Web scraping", "Systems Monitoring", "IT Security",  "Micro Frontend | Modyo", "API REST", "Bash", "HTML5 / CSS3", "GIT", "CMS (Wordpress, Joomla, Drupal, Prestashop)", "Docker / Docker Compose", "SQL (MYSQL/MariaDB, SQL Server, PostgreSQL, SQLite)", "MongoDB", "Cloud: AWS / Azure", "Software architecture", "SOLID", "Figma", "Flow diagrams / UML / BPMN", "Excel", "BI - Data analyst", "Odoo ERP/CRM", "Agile (KANBAN, SCRUM)"],
     "contact":[
         {
             "icon": "brands fa-github",
