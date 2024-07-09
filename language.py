@@ -91,7 +91,7 @@ english = {
 spanish = {
     "language":"spanish",
     "title": "Corriculum",
-    "short_title": "<b>Ingeniero informático</b> / Desarrollador Full Stack / Técnico en Redes y Telecomunicaciones",
+    "short_title": "<b>Ingeniero informático</b> / Desarrollador Full Stack / Técnico en Redes y Telecomunicaciones.",
     "about_me_title": "Acerca de mi",
     "description_question": "¿Qué un desarrollador <b>Full Stack</b>?<br>Es un desarrollador capaz de entregar un producto desde cero.",
     "about_me": "Profesional con 15+ años de experiencia en el rubro de la informática, con desempeño en las siguientes áreas: soporte software/hardware, técnico en redes/telecomunicaciones y durante los últimos años he dirigido mi carrera al desarrollo de software web Full stack de forma autodidacta, la cual complemento con el uso de la carrera de ingeniería informática. Hago uso de la metodología ágil KANBAN para mejoras en la productividad y velocidad de entregas. Me mantengo en constante aprendizaje, me gusta compartir conocimiento con mis colegas.",
