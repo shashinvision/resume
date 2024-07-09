@@ -44,3 +44,7 @@ li{
 .center_ul {
     text-align: center;
 }
+
+.border>p {
+    margin: 0 0 0.5rem 0;
+}
