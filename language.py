@@ -3,7 +3,7 @@
 english = {
     "language":"english",
     "title": "Resume",
-    "short_title": "<b>IT ENGINEER</b> / Full Stack Developer",
+    "short_title": "<b>IT Engineer</b> / Full Stack Developer / Network and Telecommunications Technician.",
     "about_me_title": "About me",
     "description_question": "¿What is a <b>Full Stack</b> developer?<br>Is a developer capable of delivering a product from scratch.",
     "about_me": "Professional with 15+ years of experience in the field of computing, with performance in the following areas: software / hardware support, network / telecommunications technician and during the last years I have directed my career to the development of Full stack web software in a self-taught way, which I complement with the use of the IT engineering degree. I use the agile KANBAN methodology to improve productivity and speed of deliveries. I am constantly learning, I love teach if someone feel that can help in something new, and I like sharing knowledge with my colleagues.",
@@ -21,8 +21,8 @@ english = {
     },
     ],
     "city": "<b>City</b>: Santiago of Chile.",
-    "skills_title":"Skills / Experience",
-    "experience_title":"Professional experience",
+    "skills_title":"Skills",
+    "experience_title":"Experience",
     "education_title":"Education",
     "courses_title": "Certificate courses",
     "courses_description": "In this section you can see the courses passed and certified by me, please click in the courses title to see the online certificate.",
@@ -91,7 +91,7 @@ english = {
 spanish = {
     "language":"spanish",
     "title": "Corriculum",
-    "short_title": "<b>Ingeniero informático</b> / Desarrollador Full Stack",
+    "short_title": "<b>Ingeniero informático</b> / Desarrollador Full Stack / Técnico en Redes y Telecomunicaciones",
     "about_me_title": "Acerca de mi",
     "description_question": "¿Qué un desarrollador <b>Full Stack</b>?<br>Es un desarrollador capaz de entregar un producto desde cero.",
     "about_me": "Profesional con 15+ años de experiencia en el rubro de la informática, con desempeño en las siguientes áreas: soporte software/hardware, técnico en redes/telecomunicaciones y durante los últimos años he dirigido mi carrera al desarrollo de software web Full stack de forma autodidacta, la cual complemento con el uso de la carrera de ingeniería informática. Hago uso de la metodología ágil KANBAN para mejoras en la productividad y velocidad de entregas. Me mantengo en constante aprendizaje, me gusta compartir conocimiento con mis colegas.",
@@ -109,8 +109,8 @@ spanish = {
     },
     ],
     "city": "<b>Ciudad</b>: Santiago de Chile.",
-    "skills_title":"Habilidades / Experiencia",
-    "experience_title":"Experiencia Profesional",
+    "skills_title":"Habilidades",
+    "experience_title":"Experiencia",
     "education_title":"Educación",  
     "courses_title": "Cursos certificados",
     "courses_description": "En esta sección puede ver los cursos aprobados y certificados por mí, haga clic en el título de los cursos para ver el certificado en línea.",
@@ -177,7 +177,7 @@ spanish = {
 
 generals = {
 
-    "skills":["Linux / MacOsx / Unix / Tmux / Windows", "Python / Flask / Pandas / Jupyter", "PHP / CodeIgniter / Laravel", "JavaScript / React / Vue / Vuex / Nuxt / Ionic", "Micro Frontend | Modyo", "API REST", "Bash", "HTML5 / CSS3", "GIT", "CMS (Wordpress, Joomla, Drupal, Prestashop)", "Docker / Docker Compose", "SQL (MYSQL/MariaDB, SQL Server, PostgreSQL, SQLite)", "MongoDB", "Cloud: AWS / Azure", "Software architecture", "SOLID", "Figma", "Flow diagrams / UML / BPMN", "Excel", "BI - Data analyst", "Bash", "Web scraping", "Odoo ERP/CRM", "Agile (KANBAN, SCRUM)"],
+    "skills":["Linux / MacOsx / Unix / Tmux / Windows", "Python / Flask / Pandas / Jupyter", "PHP / CodeIgniter / Laravel", "JavaScript / React / Vue / Vuex / Nuxt / Ionic","API REST",  "ETL", "Bash", "Web scraping", "Systems Monitoring", "Micro Frontend | Modyo", "API REST", "Bash", "HTML5 / CSS3", "GIT", "CMS (Wordpress, Joomla, Drupal, Prestashop)", "Docker / Docker Compose", "SQL (MYSQL/MariaDB, SQL Server, PostgreSQL, SQLite)", "MongoDB", "Cloud: AWS / Azure", "Software architecture", "SOLID", "Figma", "Flow diagrams / UML / BPMN", "Excel", "BI - Data analyst", "Odoo ERP/CRM", "Agile (KANBAN, SCRUM)"],
     "contact":[
         {
             "icon": "brands fa-github",
