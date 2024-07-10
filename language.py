@@ -354,6 +354,10 @@ generals = {
             "title": "English B2 Certificate!",
             "url": "https://drive.google.com/file/d/1FCetsnpLhySzPkGZUdFx0eJHfK8kcCrK/view?usp=sharing"
         },
+        {
+            "title": "Hacking Ético con Kali Linux",
+            "url": "https://www.udemy.com/certificate/UC-1fc65c5c-55d7-4a78-8d0c-8e6fb5c0b382/"
+        },
     ]
 
 }
