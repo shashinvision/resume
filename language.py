@@ -270,7 +270,7 @@ spanish = {
 generals = {
     "skills": [
         "Linux / MacOsx / Unix / Tmux / Windows",
-        "Python / Flask / Django / Pandas / Jupyter / BeautifulSoup, Selenium",
+        "Python / Flask / Django / Pandas / Jupyter / BeautifulSoup / Selenium",
         "PHP / CodeIgniter / Laravel",
         "JavaScript / NodeJS / Express / Liquidjs / React / Vue / Vuex / Nuxt / Ionic",
         "API REST",
