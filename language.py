@@ -475,5 +475,9 @@ generals = {
             "title": "Hacking Ético con Kali Linux",
             "url": "https://www.udemy.com/certificate/UC-1fc65c5c-55d7-4a78-8d0c-8e6fb5c0b382/",
         },
+        {
+            "title": "Como crear aplicaciones SPA: ANGULAR +.NET + SQL SERVER",
+            "url": "https://www.udemy.com/certificate/UC-f1592427-39f4-4218-b918-e7a7bf06702f/",
+        },
     ],
 }
