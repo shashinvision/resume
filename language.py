@@ -479,5 +479,9 @@ generals = {
             "title": "Como crear aplicaciones SPA: ANGULAR +.NET + SQL SERVER",
             "url": "https://www.udemy.com/certificate/UC-f1592427-39f4-4218-b918-e7a7bf06702f/",
         },
+        {
+            "title": "Build an app with ASPNET Core and Angular from scratch",
+            "url": "https://www.udemy.com/certificate/UC-90686622-dd57-4007-a419-564288817f95/",
+        },
     ],
 }
