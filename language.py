@@ -313,7 +313,6 @@ generals = {
         "Systems Monitoring",
         "IT Security",
         "Micro Frontend | Modyo",
-        "Bash",
         "HTML5 / CSS3",
         "GIT",
         "CMS (Wordpress, Joomla, Drupal, Prestashop)",
