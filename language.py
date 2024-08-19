@@ -298,9 +298,10 @@ spanish = {
 generals = {
     "skills": [
         "Linux / MacOsx / Unix / Tmux / Windows",
+        "C# / .NET / ADO.NET Entity Framework",
         "Python / Flask / Django / Pandas / Jupyter / BeautifulSoup / Selenium",
         "PHP / CodeIgniter / Laravel",
-        "JavaScript / NodeJS / Express / Liquidjs / React / Vue / Vuex / Nuxt / Ionic",
+        "JavaScript / NodeJS / Express / Angular / Vue / Vuex / Nuxt / React / Liquidjs / JQuery / Ionic",
         "API REST",
         "POO",
         "ETL",
