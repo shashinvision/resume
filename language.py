@@ -42,6 +42,7 @@ english = {
                 "BPMN",
                 "SQL Server",
                 "Micro Services",
+                "Figma - Design UI"
             ],
         },
         {
@@ -189,6 +190,7 @@ spanish = {
                 "BPMN",
                 "SQL Server",
                 "Micro Servicios",
+                "Figma - Diseño IU"
             ],
         },
         {
