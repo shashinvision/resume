@@ -31,6 +31,20 @@ english = {
     "contact_schedule": "My schedule",
     "experience": [
         {
+            "title": "Full Stack Developer",
+            "date": "2024 - Current",
+            "intitution": "ACL > BCI Insurance",
+            "list": [
+                "Angular",
+                "NodeJS",
+                "C#",
+                ".NET",
+                "BPMN",
+                "SQL Server",
+                "Micro Services",
+            ],
+        },
+        {
             "title": "SOFTWARE ENGINEER",
             "date": "2022 - 2024",
             "intitution": "Automovil Club Chile",
@@ -163,6 +177,20 @@ spanish = {
     "contact_title": "Contacto",
     "contact_schedule": "Mi Agenda",
     "experience": [
+        {
+            "title": "Full Stack Developer",
+            "date": "2024 - Actual",
+            "intitution": "ACL > BCI Seguros",
+            "list": [
+                "Angular",
+                "NodeJS",
+                "C#",
+                ".NET",
+                "BPMN",
+                "SQL Server",
+                "Micro Servicios",
+            ],
+        },
         {
             "title": "INGENIERO DE SOFTWARE",
             "date": "2022 - 2024",
