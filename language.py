@@ -513,5 +513,9 @@ generals = {
             "title": "Build an app with ASPNET Core and Angular from scratch",
             "url": "https://www.udemy.com/certificate/UC-90686622-dd57-4007-a419-564288817f95/",
         },
+        {
+            "title": "Aprende Programación Backend en C# .NET",
+            "url": "https://www.udemy.com/certificate/UC-bc6b1ea9-f6f5-4ca0-966e-06b3b245114a/",
+        },
     ],
 }
