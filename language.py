@@ -517,5 +517,9 @@ generals = {
             "title": "Aprende Programación Backend en C# .NET",
             "url": "https://www.udemy.com/certificate/UC-bc6b1ea9-f6f5-4ca0-966e-06b3b245114a/",
         },
+        {
+            "title": "Curso de C#",
+            "url": "https://www.udemy.com/certificate/UC-1dfe349d-b16f-49ea-bcb1-aacc9b59be7e/",
+        },
     ],
 }
