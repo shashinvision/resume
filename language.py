@@ -521,5 +521,9 @@ generals = {
             "title": "Curso de C#",
             "url": "https://www.udemy.com/certificate/UC-1dfe349d-b16f-49ea-bcb1-aacc9b59be7e/",
         },
+        {
+            "title": "Patrones de diseño en C# Aplicados en ASP .Net",
+            "url": "https://www.udemy.com/certificate/UC-11b93752-db43-4297-a682-b17a97e829d1/",
+        },
     ],
 }
