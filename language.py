@@ -24,7 +24,7 @@ english = {
     "skills_title": "Skills",
     "experience_title": "Experience",
     "education_title": "Education",
-    "courses_title": "Certificate courses",
+    "courses_title": "Courses",
     "courses_description": "In this section you can see the courses passed and certified by me, please click in the courses title to see the online certificate.",
     "contact_title": "Contact",
     "contact_description": "You can contact me for email at:",
@@ -173,7 +173,7 @@ spanish = {
     "skills_title": "Habilidades",
     "experience_title": "Experiencia",
     "education_title": "Educación",
-    "courses_title": "Cursos certificados",
+    "courses_title": "Cursos",
     "courses_description": "En esta sección puede ver los cursos aprobados y certificados por mí, haga clic en el título de los cursos para ver el certificado en línea.",
     "contact_title": "Contacto",
     "contact_schedule": "Mi Agenda",
@@ -524,6 +524,10 @@ generals = {
         {
             "title": "Patrones de diseño en C# Aplicados en ASP .Net",
             "url": "https://www.udemy.com/certificate/UC-11b93752-db43-4297-a682-b17a97e829d1/",
+        },
+        {
+            "title": "Patrones de diseño en C# Aplicados en ASP .Net",
+            "url": "https://www.udemy.com/certificate/UC-f9546088-6fe9-4c00-967d-230129196435/",
         },
     ],
 }

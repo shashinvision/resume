@@ -39,7 +39,7 @@
             <li><a href="#about">{{language.about_me_title }}</a></li>
             <li><a href="#work">{{language.experience_title}}</a></li>
             <li><a href="#skills">{{language.skills_title}}</a></li>
-            <li><a href="#courses">{{language.education_title}}</a></li>
+            <li><a href="#education">{{language.education_title}}</a></li>
             <li><a href="#contact">{{language.contact_title}}</a></li>
           </ul>
         </nav>
@@ -108,48 +108,56 @@
           </div>
         </article>
 
-        <!-- Courses -->
-        <article id="courses">
+        <!-- Education -->
+        <article id="education">
           <h2 class="major">{{language.education_title}}</h2>
           <span class="image main"
             ><img src="static/images/pic04.jpg" alt=""
           /></span>
 
-          <div class="row">
-            <div class="col-12">
-              {% for education in language.education %}
-              <div class="border">
-                <p class="fw-bold mb-0 h5">{{education.title}}</p>
-                <small class="text-muted">{{education.date}}</small>
-                <p>{{education.intitution}}</p>
+          <div id="education_tab">
+            <div class="row">
+              <div class="col-12">
+                {% for education in language.education %}
+                <div class="border">
+                  <p class="fw-bold mb-0 h5">{{education.title}}</p>
+                  <small class="text-muted">{{education.date}}</small>
+                  <p>{{education.intitution}}</p>
+                </div>
+                {% endfor %}
               </div>
-              {% endfor %}
             </div>
           </div>
           <br>
-          <div class="row">
-            <div class="col-12">
-              <p class="h1 mb-3"><b>{{language.courses_title}} / Total: </b> {{ generals.courses | count }} </p>
+          <div id="courses_tab">
+            <div class="row">
+              <div class="col-12">
+                <p class="h1 mb-3">
+                  <b>{{language.courses_title}} / Total: </b> {{
+                  generals.courses | count }}
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="row mb-1">
-            <div class="col-12">
-              <div class="row mb-3">
-                <div class="col-12">
-                  <div class="border">
-                    {% for course in generals.courses %}
-                    <div class="mb-2">
-                      <a target="_blank" href=" {{course.url}}"
-                        >{{course.title}}</a
-                      >
+            <div class="row mb-1">
+              <div class="col-12">
+                <div class="row mb-3">
+                  <div class="col-12">
+                    <div class="border">
+                      {% for course in generals.courses | reverse %}
+                      <div class="mb-2">
+                        <a target="_blank" href=" {{course.url}}"
+                          >{{course.title}}</a
+                        >
+                      </div>
+                      {% endfor %}
                     </div>
-                    {% endfor %}
                   </div>
                 </div>
               </div>
             </div>
+            <br>
           </div>
-          <br>
+
         </article>
 
         <!-- Contact -->
