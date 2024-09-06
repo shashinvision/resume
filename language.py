@@ -526,7 +526,7 @@ generals = {
             "url": "https://www.udemy.com/certificate/UC-11b93752-db43-4297-a682-b17a97e829d1/",
         },
         {
-            "title": "Patrones de diseño en C# Aplicados en ASP .Net",
+            "title": "Clean Architecture en C# .NET, un curso basado en conceptos",
             "url": "https://www.udemy.com/certificate/UC-f9546088-6fe9-4c00-967d-230129196435/",
         },
     ],
