@@ -529,5 +529,9 @@ generals = {
             "title": "Clean Architecture en C# .NET, un curso basado en conceptos",
             "url": "https://www.udemy.com/certificate/UC-f9546088-6fe9-4c00-967d-230129196435/",
         },
+        {
+            "title": "Patrones de Diseño en JavaScript y TypeScript",
+            "url": "https://www.udemy.com/certificate/UC-6b9098ca-8de4-47ed-bba0-20f9c6ebc80a/",
+        },
     ],
 }

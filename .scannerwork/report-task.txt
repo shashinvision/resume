@@ -1,0 +1,6 @@
+projectKey=resume
+serverUrl=http://localhost:9000
+serverVersion=10.6.0.92116
+dashboardUrl=http://localhost:9000/dashboard?id=resume
+ceTaskId=ccdd3e70-d14e-4c7f-80c5-b7b2e0a483fa
+ceTaskUrl=http://localhost:9000/api/ce/task?id=ccdd3e70-d14e-4c7f-80c5-b7b2e0a483fa
