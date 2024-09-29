@@ -533,5 +533,9 @@ generals = {
             "title": "Patrones de Diseño en JavaScript y TypeScript",
             "url": "https://www.udemy.com/certificate/UC-6b9098ca-8de4-47ed-bba0-20f9c6ebc80a/",
         },
+        {
+            "title": "Curso de Programación en SQL",
+            "url": "https://www.udemy.com/certificate/UC-39e2575e-ba2d-47b7-8ae7-c47e8480284c/",
+        },
     ],
 }
