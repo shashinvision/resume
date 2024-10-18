@@ -537,5 +537,9 @@ generals = {
             "title": "Curso de Programación en SQL",
             "url": "https://www.udemy.com/certificate/UC-39e2575e-ba2d-47b7-8ae7-c47e8480284c/",
         },
+        {
+            "title": "Estructuras de Datos en JavaScript",
+            "url": "https://www.udemy.com/certificate/UC-85046e26-438b-4182-a2b3-f73c8ec79f85/",
+        },
     ],
 }
