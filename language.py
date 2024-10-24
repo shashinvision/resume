@@ -541,5 +541,9 @@ generals = {
             "title": "Estructuras de Datos en JavaScript",
             "url": "https://www.udemy.com/certificate/UC-85046e26-438b-4182-a2b3-f73c8ec79f85/",
         },
+        {
+            "title": "English C1 Certificate!",
+            "url": "https://drive.google.com/file/d/128YMvhJ0qFcZxuvQo3hQOqLH8I2qzM6g/view?usp=sharing",
+        },
     ],
 }
