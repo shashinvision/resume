@@ -545,5 +545,9 @@ generals = {
             "title": "English C1 Certificate!",
             "url": "https://drive.google.com/file/d/128YMvhJ0qFcZxuvQo3hQOqLH8I2qzM6g/view?usp=sharing",
         },
+        {
+            "title": "ReactiveX - RxJs: De cero hasta los detalles",
+            "url": "https://www.udemy.com/certificate/UC-ff66ad93-087e-4b65-bcde-09f3b70cdf79/",
+        },
     ],
 }
