@@ -549,5 +549,9 @@ generals = {
             "title": "ReactiveX - RxJs: De cero hasta los detalles",
             "url": "https://www.udemy.com/certificate/UC-ff66ad93-087e-4b65-bcde-09f3b70cdf79/",
         },
+        {
+            "title": "Curso de C# .NET AVANZADO ",
+            "url": "https://www.udemy.com/certificate/UC-a841d679-3e3c-40c4-867d-dcf8f5cb793f/",
+        },
     ],
 }
