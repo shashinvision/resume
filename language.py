@@ -550,8 +550,12 @@ generals = {
             "url": "https://www.udemy.com/certificate/UC-ff66ad93-087e-4b65-bcde-09f3b70cdf79/",
         },
         {
-            "title": "Curso de C# .NET AVANZADO ",
+            "title": "Curso de C# .NET AVANZADO",
             "url": "https://www.udemy.com/certificate/UC-a841d679-3e3c-40c4-867d-dcf8f5cb793f/",
+        },
+        {
+            "title": " Curso Completo de IA",
+            "url": "https://www.udemy.com/certificate/UC-1ae2d78f-a5c3-4494-8e34-0bf57fab0855/",
         },
     ],
 }
