@@ -554,8 +554,12 @@ generals = {
             "url": "https://www.udemy.com/certificate/UC-a841d679-3e3c-40c4-867d-dcf8f5cb793f/",
         },
         {
-            "title": " Curso Completo de IA",
+            "title": "Curso Completo de IA",
             "url": "https://www.udemy.com/certificate/UC-1ae2d78f-a5c3-4494-8e34-0bf57fab0855/",
+        },
+        {
+            "title": "Domina Python para la Inteligencia Artificial",
+            "url": "https://www.udemy.com/certificate/UC-a1f32da2-afe3-4482-8424-03278548956d/",
         },
     ],
 }
