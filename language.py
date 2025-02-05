@@ -184,6 +184,7 @@ spanish = {
             "date": "2024 - Actual",
             "intitution": "ACL > BCI Seguros",
             "list": [
+                "IA/LLMs Generativa",
                 "Angular",
                 "NodeJS",
                 "C#",
