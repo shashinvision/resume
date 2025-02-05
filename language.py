@@ -35,6 +35,7 @@ english = {
             "date": "2024 - Current",
             "intitution": "ACL > BCI Insurance",
             "list": [
+                "Generative AI/LLMs",
                 "Angular",
                 "NodeJS",
                 "C#",
@@ -299,9 +300,9 @@ spanish = {
 
 generals = {
     "skills": [
-        "Linux / MacOsx / Unix / Tmux / Windows",
-        "C# / .NET / ADO.NET Entity Framework",
+        "Generative AI/LLM - APIs ChatGPT - Local Ollama/LMStudio",
         "Python / Flask / Django / Pandas / Jupyter / BeautifulSoup / Selenium",
+        "C# / .NET / ADO.NET Entity Framework",
         "PHP / CodeIgniter / Laravel",
         "JavaScript / TypeScript / NodeJS / Express / Angular / Vue / Vuex / Nuxt / React / Liquidjs / JQuery / Ionic",
         "API REST",
@@ -328,6 +329,7 @@ generals = {
         "BI - Data analyst",
         "Odoo ERP/CRM",
         "Agile (KANBAN, SCRUM)",
+        "Linux / MacOsx / Unix / Tmux / Windows",
     ],
     "contact": [
         {
