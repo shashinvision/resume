@@ -5,14 +5,20 @@ english = {
     "title": "Resume",
     "short_title": "<b>IT Engineer</b> / Full Stack Developer / Network and Telecommunications Technician.",
     "about_me_title": "About me",
-    "description_question": "¿What is a <b>Full Stack</b> developer?<br>Is a developer capable of delivering a product from scratch.",
-    "about_me": "Professional with 15+ years of experience in the field of computing, with performance in the following areas: software / hardware support, network / telecommunications technician and during the last years I have directed my career to the development of Full stack web software in a self-taught way, which I complement with the use of the IT engineering degree. I use the agile KANBAN methodology to improve productivity and speed of deliveries. I am constantly learning, I love teach if someone feel that can help in something new, and I like sharing knowledge with my colleagues.",
+    "description_question": "What is a <b>Full Stack</b> developer?<br>A Full Stack Developer is capable of building a product from scratch, managing both frontend and backend components.",
+    "about_me": """
+        I am a dedicated professional with over 15 years of experience in the IT field, with a background in software and hardware support, as well as network and telecommunications. In recent years, I’ve transitioned into full-stack web development, a path I’ve pursued self-taught while leveraging my degree in IT Engineering. I follow the agile KANBAN methodology to enhance productivity and streamline deliveries.
+
+I have also developed a strong interest in artificial intelligence, particularly in working with Large Language Models (LLMs) and techniques such as Retrieval-Augmented Generation (RAG). I actively explore the integration of LLMs into real-world applications and stay up to date with the latest advancements in the field.
+
+I'm passionate about continuous learning and enjoy teaching and sharing knowledge with others whenever I can contribute to their growth.
+        """,
     "skills_description": "Skills acquired in a self-taught way and later put into experience within the development areas in which I have worked.",
     "education": [
         {
             "title": "IT ENGINEERING.",
             "date": "2018 - 2022",
-            "intitution": "Professional Institute, IACC.",
+            "institution": "Professional Institute, IACC.",
         },
         {
             "title": "TECHNICIAN IN NETWORKS AND TELECOMMUNICATIONS.",
@@ -43,7 +49,7 @@ english = {
                 "BPMN",
                 "SQL Server",
                 "Micro Services",
-                "Figma - Design UI"
+                "Figma - Design UI",
             ],
         },
         {
@@ -155,8 +161,14 @@ spanish = {
     "title": "Corriculum",
     "short_title": "<b>Ingeniero informático</b> / Desarrollador Full Stack / Técnico en Redes y Telecomunicaciones.",
     "about_me_title": "Acerca de mi",
-    "description_question": "¿Qué un desarrollador <b>Full Stack</b>?<br>Es un desarrollador capaz de entregar un producto desde cero.",
-    "about_me": "Profesional con 15+ años de experiencia en el rubro de la informática, con desempeño en las siguientes áreas: soporte software/hardware, técnico en redes/telecomunicaciones y durante los últimos años he dirigido mi carrera al desarrollo de software web Full stack de forma autodidacta, la cual complemento con el uso de la carrera de ingeniería informática. Hago uso de la metodología ágil KANBAN para mejoras en la productividad y velocidad de entregas. Me mantengo en constante aprendizaje, me gusta compartir conocimiento con mis colegas.",
+    "description_question": "¿Qué es un desarrollador <b>Full Stack</b>?<br>Es un profesional capaz de crear un producto desde cero, manejando tanto el frontend como el backend.",
+    "about_me": """
+        Soy un profesional comprometido con más de 15 años de experiencia en el área de tecnología, con trayectoria en soporte de software y hardware, además de técnico en redes y telecomunicaciones. En los últimos años, he enfocado mi carrera hacia el desarrollo de software web full stack, un camino que he seguido de forma autodidacta, complementado con mi título de Ingeniero en Informática. Utilizo la metodología ágil KANBAN para mejorar la productividad y optimizar las entregas.
+
+También he desarrollado un gran interés en la inteligencia artificial, especialmente en el trabajo con Modelos de Lenguaje Extensos (LLMs) y técnicas como la Generación Aumentada por Recuperación (RAG). Exploro activamente la integración de LLMs en aplicaciones del mundo real y me mantengo actualizado con los últimos avances del sector.
+
+Me apasiona el aprendizaje continuo y disfruto enseñar y compartir conocimientos con mis colegas siempre que pueda aportar a su desarrollo.
+        """,
     "skills_description": "Habilidades adquiridas de forma autodidacta y posteriormente puesta en experiencia dentro de las áreas de desarrollo en las que me he desempeñado.",
     "education": [
         {
@@ -192,7 +204,7 @@ spanish = {
                 "BPMN",
                 "SQL Server",
                 "Micro Servicios",
-                "Figma - Diseño IU"
+                "Figma - Diseño IU",
             ],
         },
         {
@@ -301,8 +313,8 @@ spanish = {
 
 generals = {
     "skills": [
-        "Generative AI/LLM - APIs ChatGPT - Local Ollama/LMStudio",
-        "Python / Flask / Django / Pandas / Jupyter / BeautifulSoup / Selenium",
+        "Generative AI & LLMs – Development using APIs, local LLMs, and self-hosted solutions",
+        "Python / FastAPI / Flask / Django / Pandas / Jupyter / BeautifulSoup / Selenium",
         "C# / .NET / ADO.NET Entity Framework",
         "PHP / CodeIgniter / Laravel",
         "JavaScript / TypeScript / NodeJS / Express / Angular / Vue / Vuex / Nuxt / React / Liquidjs / JQuery / Ionic",
