@@ -580,5 +580,9 @@ generals = {
             "title": "Domina Python para la Inteligencia Artificial",
             "url": "https://www.udemy.com/certificate/UC-a1f32da2-afe3-4482-8424-03278548956d/",
         },
+        {
+            "title": "Ingeniería de LLM: Domina IA, Modelos de Lenguaje y Agentes",
+            "url": "https://www.udemy.com/certificate/UC-c6f43e62-5fa1-435c-97b1-520d0712d1e8/",
+        },
     ],
 }
