@@ -580,5 +580,13 @@ generals = {
             "title": "Domina Python para la Inteligencia Artificial",
             "url": "https://www.udemy.com/certificate/UC-a1f32da2-afe3-4482-8424-03278548956d/",
         },
+        {
+            "title": "Introducción a la IA con Python",
+            "url": "https://www.domestika.org/es/certificates/733fddc995c956257941bbbc4d5ea8ac",
+        },
+        {
+            "title": "Organización de agenda: gestiona tu tiempo y energía",
+            "url": "https://www.domestika.org/es/certificates/eff4c5f9728dfa449318e857ce085f4f",
+        },
     ],
 }
