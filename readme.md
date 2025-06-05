@@ -1,15 +1,45 @@
-```
-python3 -m venv .resume
-```
-```
-. .resume/bin/activate
-```
-```
+This is my Resume repo, and this contein the necessary steps to set up a Python project and deploy it to a local web server using Flask and Jinja for Frontend, with debugging enabled and the development host set to "0.0.0.0" and running on port 5000. The following are the required steps to complete this setup:
+
+0. I use the following command in my project for dependency management:
+
+```bash
 pip freeze > requirements.txt
 ```
-```
-pip install -r requirements.txt
-```
-```
-flask --app app run --host=0.0.0.0 --debug
-```
+
+1. Create a Python virtual environment and activate it.
+
+   ```
+   pip install virtualenv
+   python -m venv .resume/venv
+   . .resume/venv/bin/activate
+   ```
+
+2. Install the necessary dependencies using pip:
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. Start a local web server:
+
+   ```
+   flask run --host=0.0.0.0 --port 5000
+   ```
+
+4. Check if the project runs successfully by accessing the developed application's URL in the browser (e.g., <http://127.0.0.1:5000/>).
+
+5. To modify and deploy the project, update the project codebase as required and perform the following steps:
+
+   a. Edit the `requirements.txt` file to replace the specified Python packages with your preferred ones.
+
+   b. Modify the `app.py` file to change the app port and the developer host.
+
+   c. Commit and push the code changes to the repository.
+
+   d. Run the project locally using `pip install -e .`. This will install the project dependencies in a separate environment.
+
+   e. Check if the project runs successfully on the local web server: access the URL in the browser (e.g., <http://127.0.0.1:5000/>).
+
+   f. If all is well, publish the project to a production-ready server.
+
+   g. Finally, deploy the project to a production-ready server using a popular web hosting platform such as Amazon Web Services (AWS), Google Cloud Platform (GCP), or Azure Web Apps.

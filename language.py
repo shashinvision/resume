@@ -581,6 +581,10 @@ generals = {
             "url": "https://www.udemy.com/certificate/UC-a1f32da2-afe3-4482-8424-03278548956d/",
         },
         {
+            "title": "Ingeniería de LLM: Domina IA, Modelos de Lenguaje y Agentes",
+            "url": "https://www.udemy.com/certificate/UC-c6f43e62-5fa1-435c-97b1-520d0712d1e8/",
+        },
+        {
             "title": "Introducción a la IA con Python",
             "url": "https://www.domestika.org/es/certificates/733fddc995c956257941bbbc4d5ea8ac",
         },
