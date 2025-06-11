@@ -7,12 +7,13 @@ english = {
     "about_me_title": "About me",
     "description_question": "What is a <b>Full Stack</b> developer?<br>A Full Stack Developer is capable of building a product from scratch, managing both frontend and backend components.",
     "about_me": """
-        I am a dedicated professional with over 15 years of experience in the IT field, with a background in software and hardware support, as well as network and telecommunications. In recent years, I’ve transitioned into full-stack web development, a path I’ve pursued self-taught while leveraging my degree in IT Engineering. I follow the agile KANBAN methodology to enhance productivity and streamline deliveries.
+        I am a dedicated professional with over 15 years of experience in the technology sector, with a solid background in software and hardware support, as well as networks and telecommunications. In recent years, I have focused my career on full-stack web development, a path I have pursued self-taught and complemented with my degree in Computer Engineering.
 
-I have also developed a strong interest in artificial intelligence, particularly in working with Large Language Models (LLMs) and techniques such as Retrieval-Augmented Generation (RAG). I actively explore the integration of LLMs into real-world applications and stay up to date with the latest advancements in the field.
+I work with agile methodologies such as KANBAN to optimize productivity and ensure efficient deliveries. At the same time, I have delved into the field of artificial intelligence, with an emphasis on the use of Large Language Models (LLMs), natural language processing (NLP), and techniques like Retrieval-Augmented Generation (RAG).
 
-I'm passionate about continuous learning and enjoy teaching and sharing knowledge with others whenever I can contribute to their growth.
-        """,
+My current focus includes developing solutions based on supervised and unsupervised learning, designing neural networks for real-world problems, and integrating LLMs into automated workflows using tools like n8n. I stay up to date with the latest advancements in AI and constantly seek new ways to apply these technologies in practical and effective ways.
+
+Passionate about continuous learning, I enjoy sharing knowledge with colleagues and actively contributing to the growth of technical teams and communities.        """,
     "skills_description": "Skills acquired in a self-taught way and later put into experience within the development areas in which I have worked.",
     "education": [
         {
@@ -165,11 +166,13 @@ spanish = {
     "about_me_title": "Acerca de mi",
     "description_question": "¿Qué es un desarrollador <b>Full Stack</b>?<br>Es un profesional capaz de crear un producto desde cero, manejando tanto el frontend como el backend.",
     "about_me": """
-        Soy un profesional comprometido con más de 15 años de experiencia en el área de tecnología, con trayectoria en soporte de software y hardware, además de técnico en redes y telecomunicaciones. En los últimos años, he enfocado mi carrera hacia el desarrollo de software web full stack, un camino que he seguido de forma autodidacta, complementado con mi título de Ingeniero en Informática. Utilizo la metodología ágil KANBAN para mejorar la productividad y optimizar las entregas.
+Soy un profesional comprometido con más de 15 años de experiencia en el área de tecnología, con una sólida trayectoria en soporte de software y hardware, así como en redes y telecomunicaciones. En los últimos años, he enfocado mi carrera hacia el desarrollo de software web full stack, un camino que he recorrido de forma autodidacta, complementado con mi formación como Ingeniero en Informática.
 
-También he desarrollado un gran interés en la inteligencia artificial, especialmente en el trabajo con Modelos de Lenguaje Extensos (LLMs) y técnicas como la Generación Aumentada por Recuperación (RAG). Exploro activamente la integración de LLMs en aplicaciones del mundo real y me mantengo actualizado con los últimos avances del sector.
+Trabajo con metodologías ágiles como KANBAN para optimizar la productividad y garantizar entregas eficientes. Paralelamente, he profundizado en el campo de la inteligencia artificial, con énfasis en el uso de Modelos de Lenguaje Extensos (LLMs), procesamiento de lenguaje natural (NLP), y técnicas como la Generación Aumentada por Recuperación (RAG).
 
-Me apasiona el aprendizaje continuo y disfruto enseñar y compartir conocimientos con mis colegas siempre que pueda aportar a su desarrollo.
+Mi enfoque actual incluye el desarrollo de soluciones basadas en aprendizaje supervisado y no supervisado, el diseño de redes neuronales aplicadas a problemas reales, y la integración de LLMs en flujos de trabajo automatizados utilizando herramientas como n8n. Me mantengo al día con los avances en IA y busco constantemente nuevas formas de aplicar estas tecnologías de forma práctica y eficiente.
+
+Apasionado por el aprendizaje continuo, disfruto compartir conocimientos con colegas y contribuir activamente al desarrollo de equipos y comunidades técnicas.
         """,
     "skills_description": "Habilidades adquiridas de forma autodidacta y posteriormente puesta en experiencia dentro de las áreas de desarrollo en las que me he desempeñado.",
     "education": [
