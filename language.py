@@ -595,5 +595,9 @@ generals = {
             "title": "Organización de agenda: gestiona tu tiempo y energía",
             "url": "https://www.domestika.org/es/certificates/eff4c5f9728dfa449318e857ce085f4f",
         },
+        {
+            "title": "AI Automation: Build LLM Apps & AI-Agents with n8n & APIs",
+            "url": "https://www.udemy.com/certificate/UC-2f5815d9-9c7b-498e-8b97-af0c9d5375f1",
+        },
     ],
 }
