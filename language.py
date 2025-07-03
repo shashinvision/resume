@@ -48,6 +48,7 @@ Passionate about continuous learning, I enjoy sharing knowledge with colleagues 
                 "C#",
                 ".NET",
                 "Python/Jupyter",
+                "Chatbot IA/LLM N8N",
                 "BPMN",
                 "SQL Server",
                 "Micro Services",
@@ -207,6 +208,7 @@ Apasionado por el aprendizaje continuo, disfruto compartir conocimientos con col
                 "C#",
                 ".NET",
                 "Python/Jupyter",
+                "Chatbot IA/LLM N8N",
                 "BPMN",
                 "SQL Server",
                 "Micro Servicios",
@@ -320,7 +322,7 @@ Apasionado por el aprendizaje continuo, disfruto compartir conocimientos con col
 
 generals = {
     "skills": [
-        "Generative AI & LLMs – Development using APIs, local LLMs, and self-hosted solutions",
+        "Generative AI & LLMs – Development using APIs, local LLMs, and self-hosted solutions, N8N & Flowise",
         "Python / FastAPI / Flask / Django / Pandas / Jupyter / BeautifulSoup / Selenium",
         "C# / .NET / ADO.NET Entity Framework",
         "PHP / CodeIgniter / Laravel",
