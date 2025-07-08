@@ -18,10 +18,10 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 });
 
 // Simple form submission
-document
-  .querySelector(".contact-form form")
-  .addEventListener("submit", function (e) {
-    e.preventDefault();
-    alert("¡Gracias por tu mensaje! Te responderé lo antes posible.");
-    this.reset();
-  });
+// document
+//   .querySelector(".contact-form form")
+//   .addEventListener("submit", function (e) {
+//     e.preventDefault();
+//     alert("¡Gracias por tu mensaje! Te responderé lo antes posible.");
+//     this.reset();
+//   });
