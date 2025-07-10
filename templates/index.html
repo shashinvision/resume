@@ -287,163 +287,16 @@
           <h2>Experiencia Laboral</h2>
         </div>
         <div class="timeline">
+          {% for experience in works %}
           <div class="timeline-item">
             <div class="timeline-content">
-              <div class="timeline-date">2024 - Actual</div>
-              <h3>Full Stack Developer</h3>
-              <h4>ACL &gt; BCI Seguros</h4>
-              <p>
-                Desarrollo de soluciones empresariales combinando frontend
-                moderno y backend robusto.<br />
-                desarrollo de backend con C#/.NET, integrados con bases de datos
-                SQL Server.<br />
-                Construcción de interfaces web con Angular, siguiendo principios
-                de diseño limpio.<br />
-                Uso de LLMs e Inteligencia Artificial para generar POCs de
-                chatbots, flujos automatizados y procesamiento de lenguaje
-                natural con N8N y herramientas como Ollama.<br />
-                Prototipado y diseño de interfaces en Figma.<br />
-                Documentación de procesos mediante BPMN y trabajo en equipo bajo
-                metodologías ágiles.
-              </p>
+              <div class="timeline-date">{{ experience.date }}</div>
+              <h3>{{ experience.job }}</h3>
+              <h4>{{ experience.company }}</h4>
+              <p>{{ experience.description | safe }}</p>
             </div>
           </div>
-
-          <div class="timeline-item">
-            <div class="timeline-content">
-              <div class="timeline-date">2022 - 2024</div>
-              <h3>Ingeniero de Software</h3>
-              <h4>Automóvil Club de Chile</h4>
-              <p>
-                Líder Técnico del equipo de desarrollo, Desarrollador Full
-                Stack, Administrador de la capa de datos, Gestión de proyectos
-                de software.<br />
-                Uso de distintas metodologías y herramientas para gestión y
-                control de proyectos.<br />
-                Participación en todo el ciclo de vida de proyectos.<br />
-                Uso de Git para versionamiento.<br />
-                Administración de servidores On-premise y Cloud (AWS/AZURE).<br />
-                Micro Servicios.
-              </p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-content">
-              <div class="timeline-date">2020 - 2021, 2023 (Proyecto)</div>
-              <h3>Desarrollador Full Stack</h3>
-              <h4>INDAP (Ministerio de Agricultura)</h4>
-              <p>
-                Participación en todo el ciclo de vida de proyectos.<br />
-                Uso de Git para control de versiones y Docker para
-                despliegue.<br />
-                Trabajo con framework institucional para creación y mejora de
-                módulos.
-              </p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-content">
-              <div class="timeline-date">2022 (Proyecto)</div>
-              <h3>Desarrollador Frontend</h3>
-              <h4>Genesys &gt; IBM &gt; Bank ITAU</h4>
-              <p>
-                Desarrollo con herramienta Modyo y MicroFrontend.<br />
-                HTML5, CSS3, Bootstrap, JavaScript, Liquid, API REST.<br />
-                GIT Flow, Windows.
-              </p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-content">
-              <div class="timeline-date">2022 (Proyecto)</div>
-              <h3>Desarrollador Web Full Stack</h3>
-              <h4>HUAP - Hospital de Urgencia de Asistencia Pública</h4>
-              <p>
-                Apoyo en desarrollo de sistema interno InnHosp con LAMP
-                Stack.<br />
-                Extracción de datos de asistencias en equipos biométricos
-                ZKTECO.<br />
-                Uso de Git, FTP, Linux.
-              </p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-content">
-              <div class="timeline-date">2021 (Proyecto)</div>
-              <h3>Desarrollador Web Full Stack</h3>
-              <h4>AltumLab</h4>
-              <p>
-                Desarrollo backend con Laravel (PHP) y frontend con VueJS.<br />
-                Comunicación con API REST y GraphQL.<br />
-                Gestión con Git.<br />
-                Liderazgo de equipo.<br />
-                Implementación de Scrumban e integración continua.
-              </p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-content">
-              <div class="timeline-date">2019 - 2020</div>
-              <h3>Full Stack Web Developer</h3>
-              <h4>Axia LTDA.</h4>
-              <p>
-                Mantención de servidores Linux con servicios web, bases de datos
-                y telefonía IP Asterisk.<br />
-                Desarrollo de módulos y scripts en PHP para Astercall.<br />
-                Extracción de datos MySQL (funciones y procedimientos
-                almacenados).<br />
-                Implementación de framework Bootstrap con plantilla AdminLTE.
-              </p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-content">
-              <div class="timeline-date">2013, 2015 - 2019</div>
-              <h3>Soporte Tecnológico y Desarrollador Web</h3>
-              <h4>
-                Dirección General de Promoción de Exportaciones (Ministerio de
-                Relaciones Exteriores)
-              </h4>
-              <p>
-                Soporte de software, hardware y red.<br />
-                Gestión de videoconferencias internacionales.<br />
-                Montaje de servidor Linux Web, MySQL y Samba.<br />
-                Desarrollo sistema de registro de actividades e inventario con
-                PHP/MySQL (CodeIgniter3).<br />
-                Hardening de plataforma para seguridad.
-              </p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-content">
-              <div class="timeline-date">2010 - 2011</div>
-              <h3>Soporte Tecnológico y Desarrollador Web</h3>
-              <h4>Ziron System</h4>
-              <p>
-                Soporte de software, hardware y red.<br />
-                Implementación CMS Joomla para intranet cliente.
-              </p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-content">
-              <div class="timeline-date">2007 - 2010</div>
-              <h3>Soporte Tecnológico</h3>
-              <h4>Ciber Group Contact-Center</h4>
-              <p>
-                Soporte de software, hardware y red.<br />
-                Mesa de ayuda Minsal y Terpel.
-              </p>
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </div>
     </section>

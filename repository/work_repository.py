@@ -8,6 +8,8 @@ class WorkRepository:
         session = SessionLocal()
         try:
             works = session.query(WorkEntity).all()
+            # for work in works:
+            #     print(work.id, work.company, work.description, work.date)
             return works
         finally:
             session.close()
