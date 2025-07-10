@@ -10,7 +10,7 @@
  Target Server Version : 3035005 (3.35.5)
  File Encoding         : 65001
 
- Date: 10/07/2025 11:46:07
+ Date: 10/07/2025 13:30:42
 */
 
 PRAGMA foreign_keys = false;
@@ -66,8 +66,8 @@ INSERT INTO "courses" ("id", "title", "url", "platform") VALUES (32, 'Ultimate P
 INSERT INTO "courses" ("id", "title", "url", "platform") VALUES (33, 'Máster en Seguridad Informática. Curso completo de Hacking.', 'https://www.udemy.com/certificate/UC-1aa68e47-5908-4720-8224-6b6c2ee00b73', 'Udemy');
 INSERT INTO "courses" ("id", "title", "url", "platform") VALUES (34, 'Python Pandas Data Crash Course 2024 Learn by Doing.', 'https://www.udemy.com/certificate/UC-d1c78c64-59a5-4a89-9d9e-954b5b9cf678', 'Udemy');
 INSERT INTO "courses" ("id", "title", "url", "platform") VALUES (35, 'Flask - Construye aplicaciones web profesionales con Python.', 'https://www.udemy.com/certificate/UC-54759bcc-4a0e-4f35-a621-3663e6be3732/', 'Udemy');
-INSERT INTO "courses" ("id", "title", "url", "platform") VALUES (36, 'English B1 Certificate!', 'https://drive.google.com/file/d/1-TGjnK23w7NbCEn1R8KZfTi1WmHuE6b7/view?usp=sharing', 'Google Drive');
-INSERT INTO "courses" ("id", "title", "url", "platform") VALUES (37, 'English B2 Certificate!', 'https://drive.google.com/file/d/1FCetsnpLhySzPkGZUdFx0eJHfK8kcCrK/view?usp=sharing', 'Google Drive');
+INSERT INTO "courses" ("id", "title", "url", "platform") VALUES (36, 'English B1 Certificate!', 'https://drive.google.com/file/d/1-TGjnK23w7NbCEn1R8KZfTi1WmHuE6b7/view?usp=sharing', 'Poliglota');
+INSERT INTO "courses" ("id", "title", "url", "platform") VALUES (37, 'English B2 Certificate!', 'https://drive.google.com/file/d/1FCetsnpLhySzPkGZUdFx0eJHfK8kcCrK/view?usp=sharing', 'Poliglota');
 INSERT INTO "courses" ("id", "title", "url", "platform") VALUES (38, 'Hacking Ético con Kali Linux', 'https://www.udemy.com/certificate/UC-1fc65c5c-55d7-4a78-8d0c-8e6fb5c0b382/', 'Udemy');
 INSERT INTO "courses" ("id", "title", "url", "platform") VALUES (39, 'Como crear aplicaciones SPA: ANGULAR +.NET + SQL SERVER', 'https://www.udemy.com/certificate/UC-f1592427-39f4-4218-b918-e7a7bf06702f/', 'Udemy');
 INSERT INTO "courses" ("id", "title", "url", "platform") VALUES (40, 'Build an app with ASPNET Core and Angular from scratch', 'https://www.udemy.com/certificate/UC-90686622-dd57-4007-a419-564288817f95/', 'Udemy');
@@ -78,7 +78,7 @@ INSERT INTO "courses" ("id", "title", "url", "platform") VALUES (44, 'Clean Arch
 INSERT INTO "courses" ("id", "title", "url", "platform") VALUES (45, 'Patrones de Diseño en JavaScript y TypeScript', 'https://www.udemy.com/certificate/UC-6b9098ca-8de4-47ed-bba0-20f9c6ebc80a/', 'Udemy');
 INSERT INTO "courses" ("id", "title", "url", "platform") VALUES (46, 'Curso de Programación en SQL', 'https://www.udemy.com/certificate/UC-39e2575e-ba2d-47b7-8ae7-c47e8480284c/', 'Udemy');
 INSERT INTO "courses" ("id", "title", "url", "platform") VALUES (47, 'Estructuras de Datos en JavaScript', 'https://www.udemy.com/certificate/UC-85046e26-438b-4182-a2b3-f73c8ec79f85/', 'Udemy');
-INSERT INTO "courses" ("id", "title", "url", "platform") VALUES (48, 'English C1 Certificate!', 'https://drive.google.com/file/d/128YMvhJ0qFcZxuvQo3hQOqLH8I2qzM6g/view?usp=sharing', 'Google Drive');
+INSERT INTO "courses" ("id", "title", "url", "platform") VALUES (48, 'English C1 Certificate!', 'https://drive.google.com/file/d/128YMvhJ0qFcZxuvQo3hQOqLH8I2qzM6g/view?usp=sharing', 'Poliglota');
 INSERT INTO "courses" ("id", "title", "url", "platform") VALUES (49, 'ReactiveX - RxJs: De cero hasta los detalles', 'https://www.udemy.com/certificate/UC-ff66ad93-087e-4b65-bcde-09f3b70cdf79/', 'Udemy');
 INSERT INTO "courses" ("id", "title", "url", "platform") VALUES (50, 'Curso de C# .NET AVANZADO', 'https://www.udemy.com/certificate/UC-a841d679-3e3c-40c4-867d-dcf8f5cb793f/', 'Udemy');
 INSERT INTO "courses" ("id", "title", "url", "platform") VALUES (51, 'Curso Completo de IA', 'https://www.udemy.com/certificate/UC-1ae2d78f-a5c3-4494-8e34-0bf57fab0855/', 'Udemy');
