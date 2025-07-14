@@ -28,6 +28,12 @@ pip freeze > requirements.txt
 
 4. Check if the project runs successfully by accessing the developed application's URL in the browser (e.g., <http://127.0.0.1:5000/>).
 
+4b. for production
+
+```
+gunicorn -D --workers 3 --bind 0.0.0.0:8000 app:app
+```
+
 5. To modify and deploy the project, update the project codebase as required and perform the following steps:
 
    a. Edit the `requirements.txt` file to replace the specified Python packages with your preferred ones.
