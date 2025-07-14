@@ -10,8 +10,8 @@ pip freeze > requirements.txt
 
    ```
    pip install virtualenv
-   python -m venv .resume/venv
-   . .resume/venv/bin/activate
+   python -m venv .env
+   . .env/bin/activate
    ```
 
 2. Install the necessary dependencies using pip:
