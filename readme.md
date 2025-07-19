@@ -5,7 +5,7 @@ This is my Resume repo, and this contein the necessary steps to set up a Python 
 ```bash
 docker build -t resume-app .
 
-docker run -p 8001:8001 resume-app
+docker run -d -p 8001:8001 resume-app
 ```
 
 ## If you want tu run on Python
