@@ -1,5 +1,15 @@
 This is my Resume repo, and this contein the necessary steps to set up a Python project and deploy it to a local web server using Flask and Jinja for Frontend, with debugging enabled and the development host set to "0.0.0.0" and running on port 5000. The following are the required steps to complete this setup:
 
+## If you want tu run on Docker
+
+```bash
+docker build -t resume-app .
+
+docker run -p 8001:8001 resume-app
+```
+
+## If you want tu run on Python
+
 0. I use the following command in my project for dependency management:
 
 ```bash
