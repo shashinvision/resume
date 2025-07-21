@@ -18,7 +18,7 @@ docker compose up -d
 ### En el caso de de que arroje error debido a una instancia previa puedes ejecutar
 
 ```bash
-docker-compose up -d --force-recreate
+docker compose up -d --force-recreate
 ```
 
 ## If you want tu run on Python
