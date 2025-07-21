@@ -2,6 +2,8 @@ version: "3.8"
 
 services:
   app:
+    container_name: resume-app
     build: .
     ports:
       - "8001:80"
+    restart: unless-stopped
