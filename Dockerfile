@@ -9,7 +9,7 @@ COPY . .
 
 ENV PYTHONUNBUFFERED=1
 
-EXPOSE 8001
+EXPOSE 80
 
 # Arranca Gunicorn en modo daemon (-D), 3 workers, en el puerto 8001
-CMD ["gunicorn", "--workers", "3", "--bind", "0.0.0.0:8001", "app:app"]
+CMD ["gunicorn", "--workers", "3", "--bind", "0.0.0.0:80", "app:app"]
