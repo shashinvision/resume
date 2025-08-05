@@ -8,4 +8,3 @@ Werkzeug==3.0.2
 sqlalchemy
 flask-sqlalchemy
 gunicorn
-flask
