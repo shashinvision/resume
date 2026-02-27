@@ -831,6 +831,7 @@ img {
         var(--primary-dark) 100%
     );
     position: relative;
+    overflow: hidden;
 }
 
 .contact-section::before {
@@ -842,6 +843,8 @@ img {
         rgba(245, 158, 11, 0.2) 0%,
         transparent 50%
     );
+    pointer-events: none;
+    z-index: 1;
 }
 
 .contact-section .section-header h2,
@@ -919,6 +922,8 @@ img {
     justify-content: center;
     gap: 1rem;
     margin-top: 2rem;
+    position: relative;
+    z-index: 10;
 }
 
 .social-btn {
@@ -933,6 +938,9 @@ img {
     font-size: 1.25rem;
     color: white;
     transition: var(--transition);
+    text-decoration: none;
+    pointer-events: auto;
+    cursor: pointer;
 }
 
 .social-btn:hover {
