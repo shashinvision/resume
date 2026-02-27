@@ -1,524 +1,560 @@
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="{{ icon }}" />
-    <title>Felipe M.</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='css/style.css') }}"
-    />
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='css/modo-obscuro.css') }}"
-    />
-  </head>
-  <body>
-    <!-- Header -->
-    <header>
-      <div class="container">
-        <nav>
-          <div class="logo">Felipe<span> M.</span></div>
-          <div class="nav-links">
-            <a href="#home">Inicio</a>
-            <a href="#about">Sobre Mí</a>
-            <a href="#projects">Proyectos</a>
-            <a href="#experience">Experiencia</a>
-            <a href="#certificates">Certificados</a>
-            <a href="#youtube">Canal de Youtube</a>
-            <a href="#contact">Contacto</a>
-          </div>
-          <div class="hamburger">
-            <i class="fas fa-bars"></i>
-          </div>
-        </nav>
-      </div>
-    </header>
+<!doctype html>
+<html lang="es" data-theme="light">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" href="{{ icon }}" />
+        <title>Felipe M. | Desarrollador Full Stack</title>
+        <meta
+            name="description"
+            content="Ingeniero Informático - Desarrollador Full Stack con +15 años de experiencia en TI, IA y Automatización"
+        />
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-      <div class="container">
-        <div class="hero-content">
-          <div class="hero-text">
-            <h1>
-              Ingeniero informático <br />
-              <span>Desarrollador Full Stack</span>
-            </h1>
+        <!-- PicoCSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+        />
 
-            <p>
-              Apasionado por la tecnología y la inteligencia artificial, con
-              experiencia en desarrollo full stack, automatización con LLMs y
-              más de 15 años en el área TI.
-            </p>
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
 
-            <div class="hero-buttons">
-              <a href="#projects" class="btn"
-                >Soluciones que marcaron la diferencia</a
-              >
-              <a href="#contact" class="btn btn-outline">Contactar</a>
-            </div>
-          </div>
-          <div class="hero-image">
-            <div class="profile-img">
-              <img src="{{ foto }}" alt="Tu Nombre" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Grotesk:wght@300..700&display=swap"
+            rel="stylesheet"
+        />
 
-    <!-- About Section -->
-    <section id="about">
-      <div class="container">
-        <div class="section-title">
-          <h2>Sobre Mí</h2>
-        </div>
-        <div class="about-content">
-          <div class="about-text">
-            <h3>Desarrollador Full Stack con 15+ años de experiencia en TI</h3>
+        <!-- Custom CSS -->
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='css/style.css') }}"
+        />
+    </head>
 
-            <p>
-              Soy un profesional comprometido con más de 15 años de experiencia
-              en el área de tecnología, con una sólida trayectoria en soporte de
-              software y hardware, así como en redes y telecomunicaciones. En
-              los últimos años, he enfocado mi carrera hacia el desarrollo de
-              software web full stack, un camino que he recorrido de forma
-              autodidacta, complementado con mi formación como Ingeniero en
-              Informática.
-            </p>
-            <p>
-              Trabajo con metodologías ágiles como KANBAN para optimizar la
-              productividad y garantizar entregas eficientes. Paralelamente, he
-              profundizado en el campo de la inteligencia artificial, con
-              énfasis en el uso de Modelos de Lenguaje Extensos (LLMs),
-              procesamiento de lenguaje natural (NLP), y técnicas como la
-              Generación Aumentada por Recuperación (RAG).
-            </p>
-            <p>
-              Mi enfoque actual incluye el desarrollo de soluciones basadas en
-              aprendizaje supervisado y no supervisado, el diseño de redes
-              neuronales aplicadas a problemas reales, y la integración de LLMs
-              en flujos de trabajo automatizados utilizando herramientas como
-              n8n. Me mantengo al día con los avances en IA y busco
-              constantemente nuevas formas de aplicar estas tecnologías de forma
-              práctica y eficiente. Apasionado por el aprendizaje continuo,
-              disfruto compartir conocimientos con colegas y contribuir
-              activamente al desarrollo de equipos y comunidades técnicas.
-            </p>
-          </div>
-          <div class="about-skills">
-            <h3>Mis Habilidades</h3>
-            <div class="skills-grid">
-              <div class="skill-card">
-                <i class="fas fa-server"></i>
-                <h4>Backend</h4>
-                <p>
-                  Desarrollo de APIs y servicios robustos con Python (Flask,
-                  FastAPI, Django), JavaScript/TypeScript (Node.js, Express), C# (.NET) y PHP (Laravel/CodeIgniter).
-                </p>
-                <p>
-                  Manejo de lógica de negocio, seguridad, autenticación,
-                  Procedimientos al almacenados, vistas, funciones y
-                  procesamiento de datos con Pandas, NumPy, TensorFlow, y
-                  Scikit-learn.
-                </p>
-                <p>
-                  Integración con CRMs, sistemas ERP como Odoo, y dashboards
-                  como Apache Superset.
-                </p>
-              </div>
-
-              <div class="skill-card">
-                <i class="fas fa-desktop"></i>
-                <h4>Frontend/Mobile Apps</h4>
-                <p>
-                  Desarrollo de interfaces modernas y responsivas con ReactNative(Mobile), Vue.js, Ionic(Mobile) y
-                  Angular, aplicando principios de diseño UI/UX y manejo
-                  avanzado de estados con Vuex, Pinia y RxJS.
-                </p>
-                <p>
-                  Consumo eficiente de APIs REST, implementación de componentes
-                  reutilizables y adaptabilidad a distintos dispositivos.
-                </p>
-                <p>Experiencia en prototipado y diseño visual con Figma.</p>
-              </div>
-
-              <div class="skill-card">
-                <i class="fas fa-project-diagram"></i>
-                <h4>Automatización e IA</h4>
-                <p>
-                  Creación de flujos inteligentes con n8n y Flowise, integrando
-                  APIs, CRMs y bases de datos.
-                </p>
-                <p>
-                  Experiencia en uso de LLMs (GPT, Mistral, Ollama) para
-                  generación de contenido, análisis de texto y agentes
-                  autónomos.
-                </p>
-              </div>
-
-              <div class="skill-card">
-                <i class="fas fa-tasks"></i>
-                <!-- Ícono para gestión y organización -->
-                <h4>Gestión de Proyectos</h4>
-                <p>
-                  Organización, planificación y seguimiento de proyectos
-                  informáticos utilizando metodologías ágiles.
-                </p>
-                <p>
-                  Gestión de documentación técnica, coordinación de equipos y
-                  aseguramiento de la calidad.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-      <div class="container">
-        <div class="section-title">
-          <h2>Soluciones que marcaron la diferencia</h2>
-        </div>
-        <div class="projects-grid">
-
-
-          <div class="project-card">
-            <div
-              class="project-img"
-              style="background: linear-gradient(135deg, #2563eb, #1e40af)"
-            >
-              <i class="fas fa-robot"></i>
-            </div>
-            <div class="project-content">
-              <h3>POC Ganadora en Concurso Interno de Innovación Digital</h3>
-              <p>
-                Participé en un concurso interno de innovación tecnológica, presentando dos Pruebas de Concepto (POC): una orientada a formularios inteligentes y otra a un chatbot basado en IA. Compitieron alrededor de 16 proyectos a nivel de gerencia, y nuestras propuestas fueron destacadas como ganadoras.
-              </p>
-              <div class="project-tags">
-                <span class="project-tag">Python</span>
-                <span class="project-tag">n8n</span>
-                <span class="project-tag">JavaScript</span>
-                <span class="project-tag">Inteligencia Artificial</span>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="project-card">
-            <div
-              class="project-img"
-              style="background: linear-gradient(135deg, #2563eb, #1e40af)"
-            >
-              <i class="fas fa-tractor"></i>
-            </div>
-            <div class="project-content">
-              <h3>Salvoconductos para Agricultores</h3>
-              <p>
-                Durante la pandemia, desarrollé para INDAP (Ministerio de
-                Agricultura de Chile) un sistema que permitió a los agricultores
-                obtener permisos de circulación de 90 días con pocos datos,
-                facilitando su movilidad. Además, el sistema permitía a las
-                Fuerzas Armadas verificar fácilmente la validez de estos
-                permisos.
-              </p>
-              <div class="project-tags">
-                <span class="project-tag">PHP</span>
-                <span class="project-tag">SQL Server</span>
-                <span class="project-tag">JavaScript</span>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="project-card">
-            <div
-              class="project-img"
-              style="background: linear-gradient(135deg, #0ea5e9, #0284c7)"
-            >
-              <i class="fas fa-chart-line"></i>
-            </div>
-            <div class="project-content">
-              <h3>Analytics Dashboard, Automatización de procesos</h3>
-              <p>
-                Líder de desarrollo en ACCHI/MACC (Automóvil Club de Chile)
-                Diseñé e implementé soluciones de automatización utilizando
-                herramientas Low Code y Full Code, enfocadas en:
-              </p>
-              <ul>
-                <li>
-                  Mantenimiento de la plataforma web y venta de cursos en linea
-                  y aprendizaje online
-                </li>
-                <li>
-                  Envío automático de correos para generación de leads y
-                  encuestas.
-                </li>
-                <li>Procesos ETL entre CRM y bases de datos internas.</li>
-                <li>
-                  Automatizaciones que optimizaron la operación y mejoraron la
-                  experiencia de múltiples áreas. Además, gestioné proyectos con
-                  proveedores externos para el sistema académico del holding.
-                </li>
-              </ul>
-              <div class="project-tags">
-                <span class="project-tag">Python</span>
-                <span class="project-tag">JavaScript</span>
-                <span class="project-tag">PHP</span>
-                <span class="project-tag">PostgreSQL</span>
-                <span class="project-tag">SQL Server</span>
-                <span class="project-tag">MySQL</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="project-card">
-            <div
-              class="project-img"
-              style="background: linear-gradient(135deg, #8b5cf6, #7c3aed)"
-            >
-              <i class="fas fa-folder-open"></i>
-            </div>
-            <div class="project-content">
-              <h3>Sistema de gestión interna y trazabilidad</h3>
-              <p>
-                Sistema de gestión para ProChile y Direcon Diseñé y desarrollé
-                una plataforma para la trazabilidad completa de equipos en
-                oficinas nacionales e internacionales. El sistema incluía
-                monitoreo de impresoras y gestión documental, logrando reducir
-                procesos que antes tomaban días a solo segundos.
-              </p>
-              <div class="project-tags">
-                <span class="project-tag">PHP</span>
-                <span class="project-tag">JavaScript</span>
-                <span class="project-tag">MariaDB</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience">
-      <div class="container">
-        <div class="section-title">
-          <h2>Experiencia Laboral</h2>
-        </div>
-        <div class="timeline">
-          {% for experience in works | reverse %}
-          <div class="timeline-item">
-            <div class="timeline-content">
-              <div class="timeline-date">{{ experience.date }}</div>
-              <h3>{{ experience.job }}</h3>
-              <h4>{{ experience.company }}</h4>
-              <p>{{ experience.description | safe }}</p>
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-    </section>
-
-    <!-- Certificates Section -->
-    <section id="certificates">
-      <div class="container">
-        <div class="section-title">
-          <h2>Certificados</h2>
-        </div>
-
-        <div class="certificates-container">
-
-        {% for certificate in courses | reverse %}
-        <div class="certificate-card">
-          <div class="certificate-img">
-            <i class="fas fa-certificate"></i>
-          </div>
-          <div class="certificate-content">
-            <h3>{{ certificate.title }}</h3>
-            <p>{{ certificate.platform }}</p>
-            <a
-              href="{{ certificate.url }}"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="btn"
-              >Ver Certificado</a
-            >
-          </div>
-        </div>
-          {% endfor %}
-
-
-      </div>
-    </section>
-
-
-<!-- Canal Youtube Section -->
-<section class="youtube" id="youtube" style=" padding-bottom: 3rem;">
-  <div class="container" style="max-width: 1200px; margin: auto;">
-    <div class="section-title" style="text-align: center; margin-bottom: 2rem;">
-      <h2>¡Canal de YouTube!</h2>
-    </div>
-
-    <div class="youtube-info" style="text-align: center;">
-      <h3>¡Conoce mi trabajo!</h3>
-      <p>
-        En mi canal de YouTube puedes encontrar estas listas de videos que estoy creando constantemente para ti.
-      </p>
-      <br />
-    </div>
-
-    <div class="youtube-container" style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center;">
-      <div class="video-box" style="flex: 1 1 300px; max-width: 560px;">
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/hI-b7DfkDmc?si=tiNeVT2fbgGOeRgU"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      </div>
-
-      <div class="video-box" style="flex: 1 1 300px; max-width: 560px;">
-        <iframe width="100%" height="315"
-          src="https://www.youtube.com/embed/videoseries?si=0SIDEK5L00zwVdbQ&amp;list=PLt8PjPook45YvFFhJek9zog7jsRurXBCe"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      </div>
-    </div>
-
-    <div style="text-align: center; margin-top: 2rem;">
-      <a href="https://www.youtube.com/@FelipeMSV/videos" target="_blank"
-        class="btn" style="display: inline-block; background-color: #FF0000; color: white; padding: 0.75rem 1.5rem; border: #FF0000; border-radius: 5px; text-decoration: none; font-weight: bold;">
-        Ver todos los videos en YouTube
-      </a>
-    </div>
-  </div>
-</section>
-
-
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-      <div class="container">
-        <div class="section-title">
-          <h2>Contacto</h2>
-        </div>
-        <div class="contact-container">
-          <div class="contact-info">
-            <h3>¡Hablemos!</h3>
-            <p>
-              Estoy abierto a oportunidades de trabajo, colaboraciones o
-              cualquier consulta. No dudes en contactarme.
-            </p>
-            <br />
-            <div class="contact-details">
-              <div class="contact-item">
-                <i class="fas fa-envelope"></i>
-                <a
-                  href="mailto:felipei.mancilla@gmail.com"
-                  style="text-decoration: none; color: white"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >felipei.mancilla@gmail.com</a
-                >
-              </div>
-
-              <div class="contact-item">
-                <i class="fab fa-whatsapp"></i>
-                <a
-                  href="https://wa.me/56949621499"
-                  style="text-decoration: none; color: white"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <span>+56 9 4962 1499</span>
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="#home" class="brand">
+                    <span class="brand-text">Felipe</span
+                    ><span class="brand-accent">.M</span>
                 </a>
-              </div>
 
-              <div class="contact-item">
-                <i class="fas fa-map-marker-alt"></i>
-                <span>Santiago de Chile</span>
-              </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Inicio</a></li>
+                    <li><a href="#about" class="nav-link">Sobre Mí</a></li>
+                    <li><a href="#projects" class="nav-link">Proyectos</a></li>
+                    <li>
+                        <a href="#experience" class="nav-link">Experiencia</a>
+                    </li>
+                    <li>
+                        <a href="#certificates" class="nav-link"
+                            >Certificados</a
+                        >
+                    </li>
+                    <li><a href="#youtube" class="nav-link">YouTube</a></li>
+                    <li><a href="#contact" class="nav-link">Contacto</a></li>
+                </ul>
+
+                <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span>
+                        Disponible para proyectos
+                    </div>
+                </div>
             </div>
 
-            <div class="social-links">
-              <a
-                href="https://github.com/shashinvision"
-                target="_blank"
-                class="social-link"
-                ><i class="fab fa-github"></i
-              ></a>
-              <a
-                href="https://www.linkedin.com/in/shashinv/"
-                target="_blank"
-                class="social-link"
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
-              <a
-                href="https://www.youtube.com/@FelipeMSV"
-                target="_blank"
-                class="social-link"
-                ><i class="fab fa-youtube"></i
-              ></a>
+            <div class="hero-container">
+                <h1 class="hero-title">
+                    Ingeniero Informático<br />
+                    <span class="highlight">Desarrollador Full Stack</span>
+                </h1>
             </div>
-          </div>
+            <div>
+                <p class="hero-description">
+                    +15 años de experiencia en tecnología. Especializado en
+                    desarrollo web, inteligencia artificial, automatización y
+                    soluciones innovadoras que transforman negocios.
+                </p>
+            </div>
 
-          <!-- <div class="contact-form"> -->
-          <!--   <form> -->
-          <!--     <div class="form-group"> -->
-          <!--       <label for="name">Nombre</label> -->
-          <!--       <input type="text" id="name" class="form-control" required /> -->
-          <!--     </div> -->
-          <!--     <div class="form-group"> -->
-          <!--       <label for="email">Email</label> -->
-          <!--       <input type="email" id="email" class="form-control" required /> -->
-          <!--     </div> -->
-          <!--     <div class="form-group"> -->
-          <!--       <label for="subject">Asunto</label> -->
-          <!--       <input type="text" id="subject" class="form-control" required /> -->
-          <!--     </div> -->
-          <!--     <div class="form-group"> -->
-          <!--       <label for="message">Mensaje</label> -->
-          <!--       <textarea id="message" class="form-control" required></textarea> -->
-          <!--     </div> -->
-          <!--     <button type="submit" class="btn btn-white"> -->
-          <!--       Enviar Mensaje -->
-          <!--     </button> -->
-          <!--   </form> -->
-          <!-- </div> -->
-        </div>
-      </div>
-    </section>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">15+</span>
+                    <span class="stat-label">Años Exp.</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Proyectos</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">20+</span>
+                    <span class="stat-label">Certificados</span>
+                </div>
+            </div>
 
+            <div class="scroll-indicator">
+                <a href="#about">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </section>
 
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-tag">Sobre Mí</span>
+                    <h2>
+                        Transformando ideas en
+                        <span class="text-gradient">realidad digital</span>
+                    </h2>
+                </header>
 
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h3>Desarrollador Full Stack con visión integral</h3>
+                        <p>
+                            Soy un profesional con más de 15 años de experiencia
+                            en el área de tecnología, abarcando desde soporte de
+                            software y hardware hasta redes y
+                            telecomunicaciones. Mi enfoque actual está en el
+                            desarrollo web full stack, complementado con
+                            formación como Ingeniero en Informática.
+                        </p>
+                        <p>
+                            Trabajo con metodologías ágiles como KANBAN para
+                            optimizar la productividad. Además, profundizo
+                            constantemente en IA: LLMs, NLP, RAG, y aprendizaje
+                            automático para crear soluciones inteligentes.
+                        </p>
+                        <p>
+                            Me apasiona el aprendizaje continuo y compartir
+                            conocimientos, contribuyendo al desarrollo de
+                            equipos y comunidades técnicas.
+                        </p>
 
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        <p>
-          &copy; {{ current_year }} Felipe M. Todos los derechos reservados.
-        </p>
-      </div>
-    </footer>
+                        <div class="about-tags">
+                            <span class="tag"
+                                ><i class="fas fa-check"></i> Full Stack
+                                Developer</span
+                            >
+                            <span class="tag"
+                                ><i class="fas fa-check"></i> AI & ML
+                                Enthusiast</span
+                            >
+                            <span class="tag"
+                                ><i class="fas fa-check"></i> Agile
+                                Practitioner</span
+                            >
+                        </div>
+                    </div>
 
-    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+                    <div class="skills-section">
+                        <h3>
+                            <i class="fas fa-tools"></i> Habilidades Técnicas
+                        </h3>
+                        <div class="skills-grid">
+                            <article class="skill-card">
+                                <div class="skill-icon">
+                                    <i class="fas fa-server"></i>
+                                </div>
+                                <h4>Backend</h4>
+                                <p>Python, Node.js, PHP, .NET</p>
+                                <small
+                                    >Flask, FastAPI, Django, Express,
+                                    Laravel</small
+                                >
+                            </article>
 
+                            <article class="skill-card">
+                                <div class="skill-icon">
+                                    <i class="fas fa-laptop-code"></i>
+                                </div>
+                                <h4>Frontend</h4>
+                                <p>React, Vue, Angular, Ionic</p>
+                                <small>TypeScript, Tailwind, Figma</small>
+                            </article>
 
-        <!-- Botón flotante de WhatsApp -->
-      <a
-        href="https://wa.me/56949621499"
-        class="whatsapp-float"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Chat en WhatsApp"
-      >
-        <i class="fab fa-whatsapp"></i>
-      </a>
-  </body>
+                            <article class="skill-card">
+                                <div class="skill-icon">
+                                    <i class="fas fa-robot"></i>
+                                </div>
+                                <h4>AI & Automation</h4>
+                                <p>LLMs, NLP, RAG</p>
+                                <small>n8n, Flowise, TensorFlow</small>
+                            </article>
+
+                            <article class="skill-card">
+                                <div class="skill-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <h4>Databases</h4>
+                                <p>PostgreSQL, MySQL, SQL Server</p>
+                                <small>MongoDB, Redis</small>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section section-alt">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-tag">Proyectos</span>
+                    <h2>
+                        Soluciones que
+                        <span class="text-gradient">marcaron diferencia</span>
+                    </h2>
+                </header>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div
+                            class="project-image"
+                            style="
+                                --gradient: linear-gradient(
+                                    135deg,
+                                    #667eea,
+                                    #764ba2
+                                );
+                            "
+                        >
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="project-body">
+                            <h3>POC Ganadora - Innovación Digital</h3>
+                            <p>
+                                Pruebas de Concepto con formularios inteligentes
+                                y chatbot IA. Ganadoras entre 16 proyectos a
+                                nivel de gerencia.
+                            </p>
+                            <div class="project-tags">
+                                <span>Python</span><span>n8n</span
+                                ><span>AI</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div
+                            class="project-image"
+                            style="
+                                --gradient: linear-gradient(
+                                    135deg,
+                                    #11998e,
+                                    #38ef7d
+                                );
+                            "
+                        >
+                            <i class="fas fa-tractor"></i>
+                        </div>
+                        <div class="project-body">
+                            <h3>Salvoconductos para Agricultores</h3>
+                            <p>
+                                Sistema para INDAP (Ministerio de Agricultura
+                                Chile). Permisos de circulación de 90 días con
+                                verificación rápida.
+                            </p>
+                            <div class="project-tags">
+                                <span>PHP</span><span>SQL Server</span
+                                ><span>JavaScript</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div
+                            class="project-image"
+                            style="
+                                --gradient: linear-gradient(
+                                    135deg,
+                                    #ee0979,
+                                    #ff6a00
+                                );
+                            "
+                        >
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-body">
+                            <h3>Analytics Dashboard - ACCHI</h3>
+                            <p>
+                                Líder de desarrollo. Automatizaciones, ETL,
+                                plataforma de cursos online y optimización de
+                                procesos.
+                            </p>
+                            <div class="project-tags">
+                                <span>Python</span><span>PHP</span
+                                ><span>PostgreSQL</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div
+                            class="project-image"
+                            style="
+                                --gradient: linear-gradient(
+                                    135deg,
+                                    #4facfe,
+                                    #00f2fe
+                                );
+                            "
+                        >
+                            <i class="fas fa-folder-open"></i>
+                        </div>
+                        <div class="project-body">
+                            <h3>Sistema Trazabilidad - ProChile</h3>
+                            <p>
+                                Plataforma para trazabilidad de equipos en
+                                oficinas nacionales e internacionales. Reducción
+                                de días a segundos.
+                            </p>
+                            <div class="project-tags">
+                                <span>PHP</span><span>JavaScript</span
+                                ><span>MariaDB</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-tag">Experiencia</span>
+                    <h2>
+                        Mi
+                        <span class="text-gradient"
+                            >trayectoria profesional</span
+                        >
+                    </h2>
+                </header>
+
+                <div class="timeline">
+                    {% for experience in works | reverse %}
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <time>{{ experience.date }}</time>
+                            <h3>{{ experience.job }}</h3>
+                            <h4>{{ experience.company }}</h4>
+                            <p>{{ experience.description | safe }}</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section id="certificates" class="section section-alt">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-tag">Certificaciones</span>
+                    <h2>
+                        Aprendizaje <span class="text-gradient">continuo</span>
+                    </h2>
+                </header>
+
+                <div class="certificates-grid">
+                    {% for certificate in courses | reverse %}
+                    <article class="certificate-card">
+                        <div class="certificate-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="certificate-body">
+                            <h3>{{ certificate.title }}</h3>
+                            <p>{{ certificate.platform }}</p>
+                            <a
+                                href="{{ certificate.url }}"
+                                target="_blank"
+                                class="btn-link"
+                            >
+                                Ver certificado
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </article>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+
+        <!-- YouTube Section -->
+        <section id="youtube" class="section youtube-section">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-tag">YouTube</span>
+                    <h2>
+                        Contenido <span class="text-gradient">educativo</span>
+                    </h2>
+                </header>
+
+                <div class="youtube-content">
+                    <p class="youtube-intro">
+                        En mi canal comparto tutoriales, proyectos y
+                        conocimientos sobre desarrollo web, IA y tecnología.
+                    </p>
+
+                    <div class="video-grid">
+                        <div class="video-card">
+                            <iframe
+                                src="https://www.youtube.com/embed/hI-b7DfkDmc"
+                                title="YouTube video"
+                                allowfullscreen
+                            >
+                            </iframe>
+                        </div>
+                        <div class="video-card">
+                            <iframe
+                                src="https://www.youtube.com/embed/videoseries?list=PLt8PjPook45YvFFhJek9zog7jsRurXBCe"
+                                title="YouTube playlist"
+                                allowfullscreen
+                            >
+                            </iframe>
+                        </div>
+                    </div>
+
+                    <a
+                        href="https://www.youtube.com/@FelipeMSV/videos"
+                        target="_blank"
+                        class="btn btn-youtube"
+                    >
+                        <i class="fab fa-youtube"></i>
+                        Ver todos los videos
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-tag">Contacto</span>
+                    <h2>
+                        Hablemos y
+                        <span class="text-gradient">creemos algo juntos</span>
+                    </h2>
+                </header>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <p class="contact-intro">
+                            Estoy disponible para oportunidades de trabajo,
+                            colaboraciones y consultas. ¡Escríbeme!
+                        </p>
+
+                        <div class="contact-methods">
+                            <a
+                                href="mailto:felipei.mancilla@gmail.com"
+                                class="contact-item"
+                            >
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <strong>Email</strong>
+                                    <span>felipei.mancilla@gmail.com</span>
+                                </div>
+                            </a>
+
+                            <a
+                                href="https://wa.me/56949621499"
+                                target="_blank"
+                                class="contact-item"
+                            >
+                                <div class="contact-icon">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <div>
+                                    <strong>WhatsApp</strong>
+                                    <span>+56 9 4962 1499</span>
+                                </div>
+                            </a>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <strong>Ubicación</strong>
+                                    <span>Santiago de Chile</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a
+                                href="https://github.com/shashinvision"
+                                target="_blank"
+                                class="social-btn"
+                                aria-label="GitHub"
+                            >
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a
+                                href="https://www.linkedin.com/in/shashinv/"
+                                target="_blank"
+                                class="social-btn"
+                                aria-label="LinkedIn"
+                            >
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a
+                                href="https://www.youtube.com/@FelipeMSV"
+                                target="_blank"
+                                class="social-btn"
+                                aria-label="YouTube"
+                            >
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- WhatsApp Float -->
+            <a
+                href="https://wa.me/56949621499"
+                class="whatsapp-float"
+                aria-label="WhatsApp"
+            >
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <p>
+                    &copy; {{ current_year }} <strong>Felipe M.</strong> Todos
+                    los derechos reservados.
+                </p>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+    </body>
 </html>
