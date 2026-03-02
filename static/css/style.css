@@ -1031,6 +1031,7 @@ footer strong {
     }
     .nav-toggle {
         display: block;
+        background-color: grey;
     }
 
     .hero {
